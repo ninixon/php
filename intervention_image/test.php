@@ -41,5 +41,5 @@ use Intervention\Image\ImageManagerStatic as Image;
 //    $draw->border(5, 'fff');
 //})->save('public/1.png');
 //编辑图片不需要填写图片名
-$aa = Image::make('public/foo.jpg')->resize(660, 240)->insert('public/2.jpg')->save();
+$aa = Image::make('public/1.jpg')->resize(660, 240)->insert('public/2.jpg')->save();
 //var_dump($aa,$aa->save());
