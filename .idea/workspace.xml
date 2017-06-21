@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="a8ed65c3-9d5b-4076-a32b-d4100751bc9c" name="默认" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/barryvdh_laravel_debugbar/bootstrap/cache/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
@@ -10,6 +11,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intervention_image/test.php" afterPath="$PROJECT_DIR$/intervention_image/test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yzalis_identicon/test.php" afterPath="$PROJECT_DIR$/yzalis_identicon/test.php" />
     </list>
+
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,7 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
@@ -118,6 +121,7 @@
         <option value="$PROJECT_DIR$/barryvdh_laravel_debugbar/bootstrap/cache/.gitignore" />
       </list>
     </option>
+
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -127,13 +131,28 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="257" />
-    <option name="y" value="102" />
-    <option name="width" value="3155" />
-    <option name="height" value="2098" />
+
+    <option name="x" value="686" />
+    <option name="y" value="364" />
+    <option name="width" value="1262" />
+    <option name="height" value="782" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="添加" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="添加" />
+    <OptionsSetting value="true" id="移除" />
+    <OptionsSetting value="true" id="检出" />
+    <OptionsSetting value="true" id="更新" />
+    <OptionsSetting value="true" id="状态" />
+    <OptionsSetting value="true" id="编辑" />
+    <ConfirmationsSetting value="0" id="添加" />
+    <ConfirmationsSetting value="0" id="移除" />
+
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -157,6 +176,7 @@
               <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
@@ -201,6 +221,7 @@
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+
           </PATH>
         </subPane>
       </pane>
@@ -209,6 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -271,12 +293,14 @@
       <recursive>false</recursive>
       <method />
     </configuration>
+
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+
       <changelist id="a8ed65c3-9d5b-4076-a32b-d4100751bc9c" name="默认" comment="" />
       <created>1495965159981</created>
       <option name="number" value="Default" />
@@ -285,10 +309,12 @@
       <workItem from="1495965162262" duration="5790000" />
       <workItem from="1496105553925" duration="4520000" />
       <workItem from="1496142844227" duration="875000" />
+
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+
     <option name="totallyTimeSpent" value="11185000" />
   </component>
   <component name="ToolWindowManager">
@@ -333,6 +359,7 @@
           </value>
         </entry>
       </map>
+
     </option>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -342,6 +369,7 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
+
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/barryvdh_laravel_debugbar/composer.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -657,4 +685,5 @@
       </provider>
     </entry>
   </component>
+
 </project>
