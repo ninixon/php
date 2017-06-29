@@ -1,17 +1,253 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-
     <list default="true" id="a8ed65c3-9d5b-4076-a32b-d4100751bc9c" name="默认" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/barryvdh_laravel_debugbar/bootstrap/cache/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pinyin/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intervention_image/public/1.jpg" afterPath="$PROJECT_DIR$/intervention_image/public/1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intervention_image/public/foo.jpg" afterPath="$PROJECT_DIR$/intervention_image/public/foo.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intervention_image/test.php" afterPath="$PROJECT_DIR$/intervention_image/test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yzalis_identicon/test.php" afterPath="$PROJECT_DIR$/yzalis_identicon/test.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/800x600_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/800x600_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/800x600_13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/800x600_14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/brand-logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/brand-logo2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/brand-logo3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/brand-logo4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/brand-logo5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/brand-logo6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/construction_800x600_01.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/construction_800x600_02.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/construction_800x600_03.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/favicons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/favicons/apple-touch-icon-114x114.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/favicons/apple-touch-icon-72x72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/favicons/apple-touch-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/favicons/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/logo1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/images/uploads/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/fonts/et-line.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/fonts/et-line.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/fonts/et-line.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/font/ytp-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/font/ytp-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/font/ytp-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/images/raster.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/images/raster@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/images/raster_dot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/images/raster_dot@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/fonts/themify.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/fonts/themify.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/fonts/themify.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/02.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/03.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/04.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/05.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/06.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/07.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/08.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/overlays/09.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/configstyle.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/customcss.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/rgen-grids.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/css/styleeditor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/Az6PfcE2_auth.rgen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/errorlog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/formdata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/notify-me.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/CMBase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/GetResponseAPI.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/MailChimp.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/aweber.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/aweber_api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/aweber_collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/aweber_entry.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/aweber_entry_data_array.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/aweber_response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/curl_object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/curl_response.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/exceptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/oauth_adapter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/aweber_api/oauth_application.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Auth/CtctDataStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Auth/CtctOAuth2.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Auth/SessionDataStore.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Account/AccountInfo.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Account/VerifiedEmailAddress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/Activity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/ActivityError.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/AddContacts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/AddContactsImportData.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Activities/ExportContacts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Component.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/Address.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/Contact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/ContactList.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/CustomField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/EmailAddress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Contacts/Note.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/Campaign.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/ClickThroughDetails.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/MessageFooter.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/Schedule.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/EmailMarketing/TestSend.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Library/File.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Library/Folder.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Library/Thumbnail.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/ResultSet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/BounceActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/ClickActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/ForwardActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/OpenActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/SendActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/TrackingActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/TrackingSummary.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Components/Tracking/UnsubscribeActivity.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/ConstantContact.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Exceptions/CtctException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Exceptions/IllegalArgumentException.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Exceptions/OAuth2Exception.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/AccountService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/ActivityService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/BaseService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/CampaignScheduleService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/CampaignTrackingService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/ContactService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/ContactTrackingService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/EmailMarketingService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/LibraryService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Services/ListService.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/SplClassLoader.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Util/Config.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Util/CurlResponse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Util/RestClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/Util/RestClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/WebHooks/CTCTWebhookUtil.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/constantcontact/src/Ctct/autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/php_wrappers/iContactApi.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/form-data/subscription.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/js/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/js/ie-matchmedia.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/js/plugins.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/js/respond.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/js/rgen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Icon-font-7-stroke-PIXEDEN/css/helper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Icon-font-7-stroke-PIXEDEN/css/pe-icon-7-stroke.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Icon-font-7-stroke-PIXEDEN/fonts/Pe-icon-7-stroke.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Magnific-Popup/jquery.magnific-popup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Magnific-Popup/magnific-popup.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/MapIt/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/MapIt/jquery.mapit.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/MapIt/jquery.mapit.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Swiper/css/swiper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Swiper/css/swiper.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Swiper/js/maps/swiper.jquery.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Swiper/js/swiper.jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Swiper/js/swiper.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Vide/MIT-LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Vide/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/Vide/jquery.vide.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datepicker/css/bootstrap-datepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datepicker/js/bootstrap-datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datepicker/js/bootstrap-datepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker-standalone.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap-datetimepicker/js/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/Read Me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/et-line.dev.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/fonts/et-line.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/lte-ie7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/et-line-font/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery-validation/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/css/jquery.mb.YTPlayer.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery.mb.YTPlayer/jquery.mb.YTPlayer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/owl-carousel/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/owl-carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/smartmenus/LICENSE-MIT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/smartmenus/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/smartmenus/jquery.smartmenus.bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/smartmenus/jquery.smartmenus.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/smartmenus/jquery.smartmenus.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/smartmenus/sm-core-css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/codebird-js/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/codebird-js/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/codebird-js/codebird.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/doT/LICENSE-DOT.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/doT/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/doT/doT.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/moment/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/moment/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/bower_components/moment/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/insta-gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/insta-gallery1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/insta-gallery2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/insta-gallery3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/insta-gallery4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/js/jquery.socialfeed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/twitter1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/twitter2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/social-feed/twitter3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/superfish/MIT-LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/superfish/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/superfish/dist/css/superfish.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/superfish/dist/js/hoverIntent.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/superfish/dist/js/superfish.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/sweetalert/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/sweetalert/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/sweetalert/sweetalert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/sweetalert/sweetalert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/fonts/themify.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/ie7/ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/ie7/ie7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/themify-icons/themify-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/vegas.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/vegas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/lib/vegas/vegas.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/minify/rgen_min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rgen-website/minify/rgen_min.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slider/index.html" afterPath="$PROJECT_DIR$/slider/index.html" />
     </list>
-
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,67 +259,36 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
-
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animation/demo/index.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rgen-website/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="605">
+              <caret line="244" column="11" lean-forward="false" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="11" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/animation/demo/index.js">
+      <file leaf-file-name="common.rnc" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2210">
-              <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="538">
+              <caret line="192" column="18" lean-forward="false" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animation/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.prod.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animation/webpack.prod.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rabbit-big.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animation/demo/rabbit-big.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rabbit-lose.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animation/demo/rabbit-lose.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rabbit-win.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/animation/demo/rabbit-win.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -93,6 +298,7 @@
     <findStrings>
       <find>Pinyin::pinyin</find>
       <find>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;</find>
+      <find>reales</find>
     </findStrings>
     <replaceStrings>
       <replace>echo Pinyin::pinyin</replace>
@@ -119,9 +325,9 @@
         <option value="$PROJECT_DIR$/barryvdh_laravel_debugbar/composer.json" />
         <option value="$PROJECT_DIR$/barryvdh_laravel_debugbar/bootstrap/autoload.php" />
         <option value="$PROJECT_DIR$/barryvdh_laravel_debugbar/bootstrap/cache/.gitignore" />
+        <option value="$PROJECT_DIR$/rgen-website/index.html" />
       </list>
     </option>
-
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -131,28 +337,13 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-
-    <option name="x" value="686" />
-    <option name="y" value="364" />
-    <option name="width" value="1262" />
-    <option name="height" value="782" />
+    <option name="x" value="553" />
+    <option name="y" value="655" />
+    <option name="width" value="4307" />
+    <option name="height" value="1956" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <OptionsSetting value="true" id="添加" />
-    <OptionsSetting value="true" id="移除" />
-    <OptionsSetting value="true" id="检出" />
-    <OptionsSetting value="true" id="更新" />
-    <OptionsSetting value="true" id="状态" />
-    <OptionsSetting value="true" id="编辑" />
-    <ConfirmationsSetting value="0" id="添加" />
-    <ConfirmationsSetting value="0" id="移除" />
-
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -176,7 +367,6 @@
               <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-
             <PATH_ELEMENT>
               <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
@@ -192,11 +382,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="animation" />
+              <option name="myItemId" value="rgen-website" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,18 +396,13 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="rgen-website" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="animation" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-
           </PATH>
         </subPane>
       </pane>
@@ -230,11 +411,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\php\rgen-website\images" />
+      <recent name="D:\code\php\rgen-website" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\php\rgen-website\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -293,14 +482,12 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-
       <changelist id="a8ed65c3-9d5b-4076-a32b-d4100751bc9c" name="默认" comment="" />
       <created>1495965159981</created>
       <option name="number" value="Default" />
@@ -309,19 +496,18 @@
       <workItem from="1495965162262" duration="5790000" />
       <workItem from="1496105553925" duration="4520000" />
       <workItem from="1496142844227" duration="875000" />
-
+      <workItem from="1498745884791" duration="5702000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-
-    <option name="totallyTimeSpent" value="11185000" />
+    <option name="totallyTimeSpent" value="16887000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="257" y="102" width="3155" height="2098" extended-state="1" />
-    <editor active="false" />
+    <frame x="553" y="655" width="4307" height="1956" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18268913" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13089256" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -359,7 +545,6 @@
           </value>
         </entry>
       </map>
-
     </option>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -369,13 +554,16 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
-
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/animation/demo/rabbit-win.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/barryvdh_laravel_debugbar/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -383,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1131">
           <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -391,7 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -503,16 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.lock" />
     <entry file="file://$PROJECT_DIR$/composer.json" />
     <entry file="file://$PROJECT_DIR$/michelf_php-markdown/test.php">
@@ -598,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="7" column="33" lean-forward="false" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1131">
           <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="39">
           <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -625,7 +798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -678,12 +849,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/animation/demo/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2210">
+        <state relative-caret-position="39">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="7" column="15" lean-forward="false" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rgen-website/images/realestate_intro.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rgen-website/lib/Vide/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1493806704000" expanded="true" signature="1382:1411" ph="..." />
+              <marker date="1493806704000" expanded="true" signature="1412:1513" ph="..." />
+              <marker date="1493806704000" expanded="true" signature="1572:1601" ph="..." />
+              <marker date="1493806704000" expanded="true" signature="1602:1795" ph="..." />
+              <marker date="1493806704000" expanded="true" signature="2028:2126" ph="{...}" />
+              <marker date="1493806704000" expanded="true" signature="2324:2825" ph="{...}" />
+              <marker date="1493806704000" expanded="true" signature="3051:3208" ph="//..." />
+              <marker date="1493806704000" expanded="true" signature="3901:3963" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="192" column="18" lean-forward="false" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rgen-website/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="244" column="11" lean-forward="false" selection-start-line="244" selection-start-column="11" selection-end-line="244" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#section#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
-
 </project>
