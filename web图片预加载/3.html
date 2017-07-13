@@ -1,0 +1,55 @@
+//    function loading() {
+//        var sourceArr = [
+//            '1.png',
+//            'bg.jpg',
+//            'bg2.jpg',
+//            'build.png',
+//            'load.png',
+//            'logo.png',
+//            'logo2.png',
+//            'phone.png',
+//            'position.png',
+//            'search.png',
+//            'water.png',
+//            'wechat.png',
+//
+//        ], imgLoader = function (imgs, callback) {
+//            var len = imgs.length, i = 0;
+//            while (imgs.length) {
+//                loadImage(imgs.shift(), function (path) {
+//                    callback(path, ++i, len);
+//                });
+//            }
+//        };
+//
+//        var imgPath = "./img/index/", loadImage = function (path, callback) {
+//            var img = new Image();
+//            img.onload = function () {
+//                img.onload = null;
+//                callback(path);
+//            };
+//            img.src = path;
+//        };
+//        for (var i = 0; i < sourceArr.length; i++) {
+//            sourceArr[i] = (imgPath + sourceArr[i]);
+//        }
+//        imgLoader(sourceArr, function (path, curNum, total) {
+//            var percent = curNum / total;
+//            if (percent == 1) {
+//                $("#load").hide();
+//                $(".one").show();
+//            }
+//        });
+//    }
+//    loading();
+
+window.onload = function(){
+$("#load").hide();
+$(".one").show();
+setTimeout(function () {
+$(".one").stop().animate({opacity: '0.5'}, 5000, function () {
+$(this).hide();
+$(".two").show().stop().animate({opacity: '1'}, 2000);
+});
+}, 1000)
+}

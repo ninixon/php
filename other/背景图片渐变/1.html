@@ -1,0 +1,45 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+    <title>JQuery实现背景图片渐变</title>
+    <script src="http://cdn.bootcss.com/jquery/1.8.3/jquery.min.js"></script>
+    <script>
+
+            $(document).ready(function(){
+                        $("#sub").css("left",$("#super").offset().left);
+                        $("#sub").css("top", $("#super").offset().top);
+
+                        $("#super").css("background-image","url(bg.jpg)");
+                        $("#sub").css("background-image","url(bg2.jpg)");
+                        $('#sub').css('opacity', 0);
+
+                        $("#sub").hover(
+                                function() {
+                                    $("#super").stop().animate({opacity: '0'},500);
+                                    $("#sub").stop().animate({opacity: '1'},500);
+                                },
+                                function() {
+                                    $("#sub").stop().animate({opacity: '0'},500);
+                                    $("#super").stop().animate({opacity: '1'},500);
+                                });
+                    }
+            );
+    </script>
+    <style>
+        #super{
+            width:900px;
+            height:400px;
+        }
+        #sub {
+            width:900px;
+            height:400px;
+            position:absolute;
+        }
+    </style>
+</head>
+
+<body>
+<div id="super"></div>
+<div id="sub"></div>
+</body>
+</html>

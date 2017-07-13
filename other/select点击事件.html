@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script src="http://cdn.bootcss.com/jquery/1.8.3/jquery.min.js"></script>
+<body>
+<!-- 通过点击 ＞ 实现触发select(有时为了样式的美观需这样处理)-->
+城市：<select name="one" id="one">
+    <option value="">安徽</option>
+    <option value="">南京</option>
+    <option value="">上海</option>
+</select>
+<span id="des" style="margin-left:100px;">＞</span>
+<script>
+    $(document).ready(function() {
+        $('#des').click(function() {
+            open($(this).prev('select'));
+        });
+    });
+    function open(elem) {
+        if (document.createEvent) {
+            var e = document.createEvent("MouseEvents");
+            e.initMouseEvent("mousedown", true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+            elem[0].dispatchEvent(e);
+        } else if (element.fireEvent) {
+            elem[0].fireEvent("onmousedown");
+        }
+    }
+</script>
+</body>
+</html>

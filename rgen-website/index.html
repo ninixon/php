@@ -9,6 +9,8 @@
 	<!--pageMeta-->
 
 	<!-- Lib CSS -->
+	<!--<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">-->
+	<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Rancho|Open+Sans:400,300,300italic,400italic,600,600italic,700,800italic,700italic,800" rel="stylesheet">
 	<link href="minify/rgen_min.css" rel="stylesheet">
 	<link href="css/configstyle.css?rgCgu" id="config_style" rel="stylesheet">
@@ -56,11 +58,53 @@
 			.container{
 				 padding-top: 0px;
 			}
+			.aa{
+				/*display: none;*/
+				visibility:hidden
+			}
+			.caption{
+				height: 1px;
+			}
+			.img img{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
 		}
 		@media (min-width: 991px){
 			.container{
-				padding-top: 142px;
+				padding-top: 175px;
 			}
+			.aa{
+				visibility:hidden
+			}
+			.img img{
+				margin-left: 110px
+			}
+		}
+		body{
+			max-width: 1920px;
+			margin: 0 auto;
+			/*overflow: hidden;*/
+		}
+		/*h2{*/
+			/*margin-bottom: 0px;*/
+		/*}*/
+		.title {
+			margin-bottom: 0px;
+		}
+		p{
+			margin-top: 30px;
+			font-size: 24px;
+		}
+
+		.bnr-box1 {
+			height: 300px;
+			position: relative;
+			overflow: hidden;
+			background:none;
+			text-align: center;
 		}
 
 	</style>
@@ -71,17 +115,19 @@
 		
 <!-- intro-section -->
 <!-- /.intro-section --><!-- intro-section -->
-<section class="intro-section intro-section-20" data-fullwh="y" rgen-id="rgJjP" style="background: url(images/1.jpg) no-repeat;background-size: cover;background-position: center">
+<!--<section class="intro-section intro-section-20" data-fullwh="y" rgen-id="rgJjP" style="background: url(images/1.jpg) no-repeat;background-position:center;-ms-background-position-y:0 ;background-position-y: 0;">-->
+<!--<section class="intro-section intro-section-20" data-fullwh="y" rgen-id="rgJjP" style="background: url(images/1.jpg) no-repeat;background-size: cover;background-position: center">-->
+	<section class="content-section content-section-common no-border" id="about" style="background: url(images/1.jpg);background-size: cover;background-position: center">
 	<div class="container flex-cl">
 		<div class="flex-row">
 			<div class="flex-col-md-6 flex-cl">
 				<div class="caption" >
-					<h6 class="title lh1-2 bold-4" style="font-size: 46px">
-						福瑞斯20周年感恩回馈
-					</h6>
-					<p class="title-sub"></p>
-					<hr class="light mr-tb-20">
-					<h2 class="title small italic bold-4" >福瑞斯20周年感恩回馈,新用户入金700人民币
+					<!--<h6 class="title lh1-2 bold-4" style="font-size: 46px">-->
+						<!--&lt;!&ndash;福瑞斯20周年感恩回馈&ndash;&gt;-->
+					<!--</h6>-->
+					<!--<p class="title-sub"></p>-->
+					<!--<hr class="light mr-tb-20">-->
+					<h2 class="title small italic bold-4 aa" style="">福瑞斯20周年感恩回馈,新用户入金700人民币
 						获100%同等奖励金</h2>
 				</div><!-- /.content -->
 			</div>
@@ -121,13 +167,15 @@
 	</div><!-- /.container -->
 	<!--<div class="full-wh bg-section bg-cover bg-cc" data-parallax="scroll" data-image-src="images/1.jpg"><b class="full-wh overlay-&#45;&#45;"></b></div>-->
 </section><!-- /.intro-section --><!-- content-section -->
+<!--<section class="content-section content-section-common no-border" id="about" style="background: url(images/2.jpg) no-repeat;background-position:center;-ms-background-position-y:0 ;background-position-y: 0;">-->
 <section class="content-section content-section-common no-border" id="about" style="background: url(images/2.jpg);background-size: cover">
 	<div class="container align-c">
 		
 		<div class="w-75 mr-auto mr-b-50">
 			<h2 class="title small" style="color:#d0ad50;font-size: 42px">福瑞斯简介</h2>
-			<h3 class="title small" style="color:#ffffff">About Forex Club</h3>
-			<p class="title-sub small" style="color:#ffffff">
+			<h3 class="title small" style="color:#ffffff;font-size: 28px">About Forex Club</h3>
+			<span style="color:#d0ad50">------------<i class="fa fa-heart" aria-hidden="true"></i>-------------</span>
+			<p class="title-sub small" style="color:#ffffff;font-size: 24px;">
 				FOREX CLUB 福瑞斯是一家为零售和机构客户提供外汇、差价合约及其它金融投资业务的著名环球交易服务供应商。集团于1997年创立，是最早投入经营的零售外汇经纪商之一，20年始终如一地经营自己的诚信品牌，以良好的声誉与优质的服务成为全球投资者的首选之一。
 			</p>
 		</div>
@@ -178,10 +226,12 @@
 
 	</div><!-- /container -->
 </section><!-- /content-section --><!-- Content -->
+<!--<section class="content-section align-c content-section-9 bg-gray" id="services" style="background: url(images/3-1.jpg) no-repeat;background-position:center;-ms-background-position-y:0 ;background-position-y: 0;">-->
 <section class="content-section align-c content-section-9 bg-gray" id="services" style="background: url(images/3-1.jpg);background-size: cover">
 	<div class="container">
 		<h2 class="title medium" style="color:#d0ad50;font-size: 42px">资金安全及监管</h2>
-		<h3 class="title medium" style="color:#ffffff">Safety and Regulation</h3>
+		<h3 class="title medium" style="color:#ffffff;font-size: 28px">Safety and Regulation</h3>
+		<span style="color:#d0ad50">------------<i class="fa fa-heart" aria-hidden="true"></i>-------------</span>
 		<p class="title-sub">
 			我们的重要准则之一，即是针对在全球不同国家的金融市场，严格遵守各国监管机构设立的监管政策。Forex Club旗下经纪商相继受到俄罗斯央行（监管证书编号：045-13997-020000）、白俄罗斯共和国国家银行(监管号40002）、塞浦路斯证券交易委员会（监管号HE290930）等机构监管，并授权在28个欧盟成员国开展相应业务。
 		</p>
@@ -190,7 +240,7 @@
 			
 			<div class="col-md-4" style="height: 420px;">
 				<div class="info-box info-box8">
-					<div class="img"><img src="images/5.png" class="img-responsive" alt="image" style="margin-left: 120px;"></div>
+					<div class="img"><img src="images/5.png" class="img-responsive" alt="image" style=""></div>
 					<div class="info">
 						<h2 class="hd">俄罗斯央行</h2>
 					</div>
@@ -199,7 +249,7 @@
 
 			<div class="col-md-4" style="height: 420px;">
 				<div class="info-box info-box8">
-					<div class="img"><img src="images/6.png" class="img-responsive" alt="image" style="margin-left: 120px"></div>
+					<div class="img"><img src="images/6.png" class="img-responsive" alt="image" style=""></div>
 					<div class="info">
 						<h2 class="hd">塞浦路斯证券交易委员会</h2>
 					</div>
@@ -208,7 +258,7 @@
 
 			<div class="col-md-4" style="height: 420px;">
 				<div class="info-box info-box8">
-					<div class="img"><img src="images/7.png" class="img-responsive" alt="image" style="margin-left: 120px"></div>
+					<div class="img"><img src="images/7.png" class="img-responsive" alt="image" style=""></div>
 					<div class="info">
 						<h2 class="hd">白俄罗斯共和国国家银行</h2>
 					</div>
@@ -218,7 +268,8 @@
 		</div>
 	</div><!-- /.container -->
 </section><!-- /.content-section --><!-- Clients -->
-<section class="client-section client-section-2 bg-gray no-border" style="background: url(images/4-1.jpg) no-repeat;background-position:center;-ms-background-position-y:0 ;background-position-y: 0;">
+<section class="client-section client-section-2 bg-gray no-border" style="background: url(images/4-1.jpg) no-repeat;background-size:cover;background-position:center;-ms-background-position-y:0 ;background-position-y: 0;">
+<!--<section class="client-section client-section-2 bg-gray no-border" style="background: url(images/4-1.jpg) no-repeat;background-position:center;-ms-background-position-y:0 ;background-position-y: 0;">-->
 	<div class="container align-c" style="">
 
 
@@ -268,9 +319,10 @@
 
 		</div>
 		<h2 class="title small" style="color:#d0ad50;font-size: 42px">MetaTrader 4介绍</h2>
-		<h3 class="title small" style="color:white">About MetaTrader 4</h3>
+		<h3 class="title small" style="color:white;font-size: 28px">About MetaTrader 4</h3>
+		<span style="color:#d0ad50">------------<i class="fa fa-heart" aria-hidden="true"></i>-------------</span>
 		<p class="title-sub" style="color:white">
-			我们的重要准则之一，即是针对在全球不同国家的金融市场，严格遵守各国监管机构设立的监管政策。Forex Club旗下经纪商相继受到俄罗斯央行（监管证书编号：045-13997-020000）、白俄罗斯共和国国家银行(监管号40002）、塞浦路斯证券交易委员会（监管号HE290930）等机构监管，并授权在28个欧盟成员国开展相应业务。
+			专业交易者十分喜爱的交易终端。为您提供在金融市场上交易和盈利的丰富机会：广泛的技术分析，灵活的交易系统，可提供算法交易和智能交易系统。您有两种方式可以下载：从电脑上下载终端，或者在移动设备上安装客户端。
 		</p>
 		<!-- /.client-logos -->
 	</div><!-- /.container -->
