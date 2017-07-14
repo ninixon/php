@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>简单的分页插件（Jquery）</title>
+    <link rel="stylesheet" type="text/css" href="zxf_page.css">
+</head>
+<body>
+<div class="zxf_pagediv">
+    <a href="javascript:;" class="prebtn">上一页</a>
+    <a href="javascript:;" class="zxfPagenum">1</a>
+    <a href="javascript:;" class="zxfPagenum">2</a>
+    <a href="javascript:;" class="nextbtn">下一页</a>
+    <span>共<b>50</b>页</span>
+</div>
+<script src="http://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script src="zxf_page.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $(".zxf_pagediv").createPage({
+        pageNum: 50,//总页码
+        current: 1,//当前页
+        shownum: 3,//每页显示个数
+        activepage: "current",//当前页选中样式
+        activepaf: "",//下一页选中样式
+        backfun: function (e) {
+//				console.log(e);//回调
+        }
+    });
+</script>
+
+</body>
+</html>
