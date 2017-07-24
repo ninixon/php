@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<table class="m-table">
+			<tbody>
+				<tr>
+					<td>github：</td>
+					<td>https://github.com/mattbryson/TouchSwipe-Jquery-Plugin</td>
+				</tr>
+				<tr>
+					<td>DEMO：</td>
+					<td>http://labs.rampinteractive.co.uk/touchSwipe/demos/Basic_swipe.html</td>
+				</tr>
+				<tr>
+					<td>API：</td>
+					<td>http://labs.rampinteractive.co.uk/touchSwipe/docs/</td>
+				</tr>
+				<tr>
+					<td>下载：</td>
+					<td>https://github.com/mattbryson/TouchSwipe-Jquery-Plugin</td>
+				</tr>
+				<tr>
+					<td>版本：</td>
+					<td>1.6</td>
+				</tr>
+			</tbody>
+		</table>
+		<div id="test" style="width: 600px; height: 400px; background: #fafafa;margin: 0 auto;">You swiped</div>
+
+		<script src="asset/plug/touchswipe/jquery.touchSwipe.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("#test").swipe({
+					//Generic swipe handler for all directions
+					swipe: function(event, direction, distance, duration, fingerCount, fingerData) {
+						$(this).text("You swiped " + direction);
+					}
+				});
+
+				//Set some options later
+				$("#test").swipe({
+					fingers: 2
+				});
+			});
+		</script>
+
+	</body>
+
+</html>

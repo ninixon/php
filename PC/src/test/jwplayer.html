@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+		<script src="asset/plug/jwplayer/jwplayer.js"></script>
+		<style>
+			.video-float .lywrap {width: 760px;}
+		</style>
+	</head>
+
+	<body>
+		<a onclick="video_float_play(this)" video-src="http://image.wanda.cn/uploadfile/video/world_film_chance.mp4">视频播放</a>
+		<!--视频弹层-->
+		<div class="m-layer video-float">
+			<div class="lymask"></div>
+			<table class="lytable">
+				<tbody>
+					<tr>
+						<td class="lytd">
+							<div class="lywrap">
+								<div class="lytt">
+									<h2 class="u-tt">标题</h2><span class="lyclose">×</span>
+								</div>
+								<div class="lyct">
+									<div id="playerCon1"></div>
+								</div>
+								<div class="lybt">
+									<div class="lyother">
+										<p>其他信息，比如提示</p>
+									</div>
+									<div class="lybtns">
+										<button type="button" class="u-btn">确定</button>
+										<button type="button" class="u-btn u-btn-c4">取消</button>
+									</div>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<script>
+			var videoObj = {
+				'flashplayer': 'asset/plug/jwplayer/player.swf',
+				'file': "",
+				'image': '',
+				'provider': 'http',
+				'http.startparam': 'start',
+				'skin': 'asset/plug/jwplayer/skin/fs40.zip',
+				'wmode': 'opaque',
+				'autostart': 'true',
+				'frontcolor': '000000',
+				'lightcolor': 'cc9900',
+				'screencolor': '000000',
+				'controlbar': 'bottom',
+				'width': '720',
+				'height': '420'
+			};
+
+			function video_float_play(obj) {
+				var video_play_url = $(obj).attr("video-src");
+				videoObj.file = video_play_url;
+				$(".m-layer").addClass("m-layer-show");
+				jwplayer('playerCon1').setup(videoObj);
+			}
+		</script>
+	</body>
+
+</html>

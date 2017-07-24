@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>生态与共建.psd</title>
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="asset/plug/swiper2.7.6/idangerous.swiper.css" />
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<script src="asset/js/mr-app.js"></script>
+		<script src="asset/js/js.js"></script>
+		<script src="asset/plug/swiper2.7.6/idangerous.swiper.js"></script>
+		<script src="asset/plug/superslide/jquery.SuperSlide.2.1.1.js"></script>
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="asset/css/style-compatible.css" />
+		<![endif]-->
+		<script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+		<script src="asset/plug/jwplayer/jwplayer.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<script src="header.js"></script>
+			<div class="banner cusomer" id="gj1">
+				<img class="banner-bg" src="asset/img/ps1/banner-customer.jpg" />
+				<h2 class="title theme2 white">客户价值主张<span>Customer Value<br />Proposition</span><b>发现自己  分享快乐  触摸自然  播种希望</b></h2>
+			</div>
+			<div class="bg-custom" id="gj2">
+				<div class="inner">
+					<h2 class="title theme2 mt70">社会责任<span>Social Responsibility</span><b style="color: #828282;">我们愿意做教育，做文化，提供教育的环境和配套，提供文化传承的空间</b></h2>
+					<div class="focus-shzr mt40">
+						<div class="bd">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="asset/img/ps1/img-316200.jpg" />
+										<b class="mask"></b>
+										<h3>田园东方——高品位田园生活</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="asset/img/ps1/img-316200-2.jpg" />
+										<b class="mask"></b>
+										<h3>田园东方——高品位田园生活</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="asset/img/ps1/img-316200-3.jpg" />
+										<b class="mask"></b>
+										<h3>田园东方——高品位田园生活</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="asset/img/ps1/img-316200.jpg" />
+										<b class="mask"></b>
+										<h3>田园东方——高品位田园生活</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="asset/img/ps1/img-316200.jpg" />
+										<b class="mask"></b>
+										<h3>田园东方——高品位田园生活</h3>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="asset/img/ps1/img-316200.jpg" />
+										<b class="mask"></b>
+										<h3>田园东方——高品位田园生活</h3>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="f-tar pt10">
+							<a href="#" class="prev"></a>
+							<a href="#" class="next"></a>
+						</div>
+						<script>
+							jQuery(".focus-shzr").slide({
+								startFun: function () {
+									if($('.focus-shzr .bd li').length<=3){
+										$('.f-tar .prev, .f-tar .next').hide();
+									}else{
+										$('.f-tar .prev, .f-tar .next').show();
+									}
+								},
+								mainCell: ".bd ul",
+								autoPage: true,
+								effect: "left",
+								autoPlay: true,
+								scroll: 3,
+								pnLoop: false,
+								interTime:5000,
+								vis: 3
+							});
+						</script>
+					</div>
+				</div>
+			</div>
+			<div class="inner" id="gj3">
+				<h2 class="title theme2 mt70">合作伙伴<span>Cooperative Partner</span></h2>
+				<div class="partner-logo pb50">
+					<a href="#"><img src="asset/img/ps1/partner-logo/1.jpg" /></a>
+					<a href="#"><img src="asset/img/ps1/partner-logo/2.jpg" /></a>
+					<a href="#"><img src="asset/img/ps1/partner-logo/3.jpg" /></a>
+					<a href="#"><img src="asset/img/ps1/partner-logo/4.jpg" /></a>
+					<a href="#"><img src="asset/img/ps1/partner-logo/5.jpg" /></a>
+					<a href="#"><img src="asset/img/ps1/partner-logo/6.jpg" /></a>
+					<a href="#"><img src="asset/img/ps1/partner-logo/7.jpg" /></a>
+				</div>
+			</div>
+
+			<script src="footer.js"></script>
+		</div>
+		<script type="text/javascript">
+			$youziku.load("body", "5493a695caec45ee9fecd0205f2bce5d", "HiraginoGBW3");
+			$youziku.draw();
+			$(".f-cb a").click(function() {
+				var $pos = $(this).data('href');
+				$pos1 = $($pos).offset().top - 66;
+				$("html,body").animate({
+					scrollTop: $pos1
+				}, 500);
+				return false;
+			})
+		</script>
+	</body>
+
+</html>

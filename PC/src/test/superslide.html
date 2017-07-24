@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>superlide</title>
+    <link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+    <script src="http://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+    <script src="asset/plug/superslide/jquery.SuperSlide.2.1.1.js"></script>
+</head>
+
+<body>
+    <table class="m-table">
+        <tbody>
+            <tr>
+                <td>官网：</td>
+                <td>http://www.superslide2.com/</td>
+            </tr>
+            <tr>
+                <td>API：</td>
+                <td>http://www.superslide2.com/param.html</td>
+            </tr>
+            <tr>
+                <td>扩展效果：</td>
+                <td>http://www.superslide2.com/param.html</td>
+            </tr>
+            <tr>
+                <td>版本：</td>
+                <td>2.1</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="focus">
+        <ul class="bd">
+            <li>content2</li>
+            <li>content3</li>
+            <li>content4</li>
+        </ul>
+        <ul class="hd">
+            <li class="on">1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+    </div>
+    <script>
+    jQuery(".focus").slide({
+        mainCell: ".bd",
+        titCell: ".hd li",
+        effect: "leftLoop",
+        autoPlay: false,
+        delayTime: 400
+    });
+    </script>
+</body>
+
+</html>

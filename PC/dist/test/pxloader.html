@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<table class="m-table">
+			<tbody>
+				<tr>
+					<td>官网</td>
+					<td>http://thinkpixellab.com/pxloader/</td>
+				</tr>
+				<tr>
+					<td>github:</td>
+					<td>https://github.com/thinkpixellab/PxLoader</td>
+				</tr>
+			</tbody>
+		</table>
+		<!--1-->
+		<!--<canvas id="sample1-canvas" width="500" height="500" style="margin: 0 auto;">123</canvas>
+		<p class="f-tac">
+			<button id="sample1-run" class="u-btn">run</button>
+			<button id="sample1-clear" class="u-btn">clear</button>
+		</p>-->
+		<!--2-->
+		<!--<div id="sample2-action" class="action">
+			<button id="sample2-run" type="button">Run</button>
+			<textarea id="sample2-log"></textarea>
+			<div id="sample2-progress" class="progress">100 / 100</div>
+		</div>-->
+		<!--3-->
+		<div class="m-layer m-layer-show">
+			<div class="lymask"></div>
+			<h3 class="u-tt-lg f-tac" style="z-index: 1000;position: relative; margin: 0 auto; margin-bottom:10px; margin-top:48%; color: #fff;">正在加载</h3>
+			<div class="u-progress" style="z-index: 1000;position: relative; margin: 0 auto;"><span class="pgbar" style="width:0%"><span class="pging"></span></span></div>
+		</div>
+
+	</body>
+	<script src="asset/plug/pxloader/PxLoader.js"></script>
+	<script src="asset/plug/pxloader/PxLoaderImage.js"></script>
+	<script src="asset/plug/pxloader/PxLoaderSound.js"></script>
+	<script type="text/javascript">
+		//第一种方法(一次性加载出来)
+		//$(function() {
+		//	$('#sample1-run').click(function() {
+		//		var loader = new PxLoader(),
+		//			backgroundImg = loader.addImage('http://thinkpixellab.com/pxloader/images/headerbg.jpg'),
+		//			treesImg = loader.addImage('http://thinkpixellab.com/pxloader/images/trees.png'),
+		//			ufoImg = loader.addImage('http://thinkpixellab.com/pxloader/images/ufo.png');
+		//
+		//		loader.addCompletionListener(function() {
+		//			console.log(1)
+		//			var canvas = document.getElementById('sample1-canvas'),
+		//				ctx = canvas.getContext('2d');
+		//
+		//			ctx.drawImage(backgroundImg, 0, 0);
+		//			ctx.drawImage(treesImg, 0, 104);
+		//			ctx.drawImage(ufoImg, 360, 50);
+		//		});
+		//
+		//		loader.start();
+		//	});
+		//
+		//	$('#sample1-clear').click(function() {
+		//		var canvas = document.getElementById('sample1-canvas'),
+		//			ctx = canvas.getContext('2d');
+		//
+		//		ctx.clearRect(0, 0, 700, 280);
+		//	});
+		//})
+
+		//第二种方法(加载图片带进度条)
+		//$(function() {
+		//	var baseUrl = 'http://thinkpixellab.com/pxloader' +
+		//		'/slowImage.php?delay=1&time=' + new Date,
+		//		$log = $('#sample2-log').val(''),
+		//		$progress = $('#sample2-progress').text('0 / 100'),
+		//		loader = new PxLoader();
+		//
+		//	// add 100 images to the queue 
+		//	for(var i = 0; i < 100; i++) {
+		//		// this time we'll create a PxLoaderImage instance instead of just 
+		//		// giving the loader the image url 
+		//		var pxImage = new PxLoaderImage(baseUrl + '&i=' + i);
+		//
+		//		// we can add our own properties for later use 
+		//		pxImage.imageNumber = i + 1;
+		//
+		//		loader.add(pxImage);
+		//	}
+		//
+		//	// callback that runs every time an image loads 
+		//	loader.addProgressListener(function(e) {
+		//		console.log(e)
+		//		// log which image completed 
+		//		$log.val($log.val() + 'Image ' + e.resource.imageNumber + ' Loaded\r');
+		//
+		//		// scroll to the bottom of the log 
+		//		$log.scrollTop($log[0].scrollHeight);
+		//
+		//		// the event provides stats on the number of completed items 
+		//		$progress.text(e.completedCount + ' / ' + e.totalCount);
+		//	});
+		//
+		//	loader.start();
+		//})
+
+		//第二种方法改******(常用于app进度加载)
+		$(function() {
+			var imgList = ["https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png", "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=768140322,1049546329&fm=80&w=179&h=119&img.PNG", "http://himg2.huanqiu.com/attachment2010/2016/1216/20161216044636620.jpg", "http://thinkpixellab.com/pxloader/images/headerbg.jpg", "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/logo_white_fe6da1ec.png", "https://ss0.baidu.com/6ONWsjip0QIZ8tyhnq/it/u=768140322,1049546329&fm=80&w=179&h=119&img.PNG", "http://himg2.huanqiu.com/attachment2010/2016/1216/20161216044636620.jpg", "http://thinkpixellab.com/pxloader/images/headerbg.jpg"],
+				$progress = $('.u-progress'),
+				$ly=$(".m-layer")
+				loader = new PxLoader();
+			for(var i = 0; i < imgList.length; i++) {
+				var pxImage = new PxLoaderImage(imgList[i]);
+				pxImage.imageNumber = i + 1;
+				loader.add(pxImage);
+			}
+			loader.addProgressListener(function(e) {
+				//个数统计
+				//$progress.text(e.completedCount + ' / ' + e.totalCount);
+				//百分比统计
+				//$progress.text(parseFloat(e.completedCount / e.totalCount * 100) + ' / ' + "100%");
+				//进度条
+				$progress.find(".pgbar").css("width", parseFloat(e.completedCount / e.totalCount * 100) + "%")
+			});
+			loader.addCompletionListener(function() {
+				setTimeout(function() {
+					$ly.fadeOut()
+					$(".m-table").show();
+				}, 1000)
+			});
+			loader.start();
+		})
+	</script>
+
+</html>

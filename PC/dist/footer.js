@@ -1,0 +1,12 @@
+document.writeln("<div class=\'footer\'>");
+document.writeln("				<div class=\'go-top\'><img src=\'asset/img/ps1/ico-gotop.png\' /></div>");
+document.writeln("				<div class=\'inner f-cb\'>");
+document.writeln("					<p class=\'link\'>");
+document.writeln("						<a href=\'#\'>关于我们</a>");
+document.writeln("						<a href=\'#\'>工作机会</a>");
+document.writeln("						<a href=\'#\'>联系我们</a>");
+document.writeln("					</p>");
+document.writeln("					<p class=\'copy-right\'>Copyright 2006-2016 WXTYDF.CN 田园东方信息部门版权所有</p>");
+document.writeln("					<span class=\'qr-code\'><img src=\'asset/img/ps1/qr-code.jpg\'/><b>关注微信公众号</b></span>");
+document.writeln("				</div>");
+document.writeln("			</div>");

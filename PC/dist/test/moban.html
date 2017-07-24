@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>PC兼容框架</title>
+		<meta name="keywords" content="" />
+		<meta name="description" content="" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<link rel="shortcut icon" href="asset/img/favicon.ico" />
+		<link rel="apple-touch-icon" href="asset/img/touchicon.png" />
+		<script src="asset/js/mr-app.js"></script>
+		<script src="asset/js/js.js"></script>
+		<style>
+			.g-doc {
+				width: 1200px;
+				margin: 0 auto;
+			}
+			
+			.g-bd p,
+			.g-bd1 p,
+			.g-bd2 p,
+			.g-bd3 p,
+			.g-bd4 p,
+			.g-bd5 p {
+				height: 20px;
+				background: #ccc;
+			}
+			
+			.my-h1 {
+				padding: 10px;
+				background: #e51400;
+				color: #fff;
+			}
+			
+			.my-h2 {
+				padding: 10px;
+				color: #fff;
+				background: #339933;
+			}
+			
+			.content {
+				padding: 10px 0;
+				position: relative;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<div class="g-doc">
+			<h1 class="my-h1">布局</h1>
+			<h2 class="my-h2">两列右侧自适应布局grid1</h2>
+			<div class="content">
+				<div class="g-bd1 f-cb">
+					<div class="g-sd1">
+						<p>左侧定宽</p>
+					</div>
+					<div class="g-mn1">
+						<div class="g-mn1c">
+							<p>右侧自适应</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="my-h2">两列左侧自适应布局grid2</h2>
+			<div class="content">
+				<div class="g-bd2 f-cb">
+					<div class="g-mn2">
+						<div class="g-mn2c">
+							<p>左侧自适应</p>
+						</div>
+					</div>
+					<div class="g-sd2">
+						<p>右侧定宽</p>
+					</div>
+				</div>
+			</div>
+			<h2 class="my-h2">两列定宽布局grid3</h2>
+			<div class="content">
+				<div class="g-bd f-cb">
+					<div class="g-mn">
+						<p>左侧定宽</p>
+					</div>
+					<div class="g-sd">
+						<p>右侧定宽</p>
+					</div>
+				</div>
+			</div>
+			<h2 class="my-h2">三列中间自适应布局grid4</h2>
+			<div class="content">
+				<div class="g-bd5 f-cb">
+					<div class="g-sd51">
+						<p>左侧定宽</p>
+					</div>
+					<div class="g-mn5">
+						<div class="g-mn5c">
+							<p>中间自适应</p>
+						</div>
+					</div>
+					<div class="g-sd52">
+						<p>右侧定宽</p>
+					</div>
+				</div>
+			</div>
+			<h2 class="my-h2">三列左侧自适应布局grid5</h2>
+			<div class="content">
+				<div class="g-bd5 f-cb">
+					<div class="g-sd51">
+						<p>左侧定宽</p>
+					</div>
+					<div class="g-mn5">
+						<div class="g-mn5c">
+							<p>中间自适应</p>
+						</div>
+					</div>
+					<div class="g-sd52">
+						<p>右侧定宽</p>
+					</div>
+				</div>
+			</div>
+			<h2 class="my-h2">三列右侧自适应布局grid6</h2>
+			<div class="content">
+				<div class="g-bd3 f-cb">
+					<div class="g-sd31">
+						<p>左侧定宽</p>
+					</div>
+					<div class="g-sd32">
+						<p>左侧定宽</p>
+					</div>
+					<div class="g-mn3">
+						<div class="g-mn3c">
+							<p>右侧自适应</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="my-h1">元件</h1>
+			<h2 class="my-h2">按钮</h2>
+			<div class="content">
+				<button type="button" class="u-btn">蓝色</button>
+				<a href="#" class="u-btn">蓝色</a>
+				<button type="button" class="u-btn u-btn-c1">红色</button>
+				<button type="button" class="u-btn u-btn-c2">黄色</button>
+				<button type="button" class="u-btn u-btn-c3">绿色</button>
+				<button type="button" class="u-btn u-btn-c4">灰色</button>
+				<button type="button" class="u-btn"><span class="btntxt">下拉</span><span class="btnsel"></span></button>
+				<button type="button" class="u-btn u-btn-c4"><span class="btnsel"></span></button>
+				<button type="button" class="u-btn u-btn-c4"><span class="btntxt">灰色下拉</span><span class="btnsel"></span></button>
+				<button type="button" class="u-btn u-btn-lg"><span class="btntxt">较大的</span><span class="btnsel"></span></button>
+				<button type="button" class="u-btn u-btn-sm">较小的</button>
+				<button type="button" class="u-btn">下拉</button>
+			</div>
+			<h2 class="my-h2">通用自定义按钮组合</h2>
+			<div class="content" style="height: 200px;">
+				<span class="u-btns">
+					<button type="button" class="u-btn">蓝色</button>
+					<button type="button" class="u-btn"><span class="btnsel"></span></button>
+				<ul class="u-menu u-menu-rt u-menu-gp u-menu-show">
+					<li>
+						<a href="#">分组，右对齐</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li class="menusep"><span class="menuline"></span></li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+				</ul>
+				</span>
+				<span class="u-btns">
+					<button type="button" class="u-btn u-btn-c4">灰色</button>
+					<button type="button" class="u-btn u-btn-c4">灰色</button>
+					<button type="button" class="u-btn u-btn-c4">灰色</button>
+					<button type="button" class="u-btn u-btn-c4">灰色</button>
+				</span>
+				<span class="u-btns">
+					<button type="button" class="u-btn u-btn-c4">灰色</button>
+					<button type="button" class="u-btn u-btn-c4"><span class="btnsel"></span></button>
+				<ul class="u-menu u-menu-min u-menu-show">
+					<li>
+						<a href="#">至少撑满</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+				</ul>
+				</span>
+				<span class="u-btns">
+					<button type="button" class="u-btn"><span class="btntxt">蓝色下拉</span><span class="btnsel"></span></button>
+				<ul class="u-menu u-menu-max u-menu-show">
+					<li>
+						<a href="#">至多撑满</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单菜单菜单菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+				</ul>
+				</span>
+				<span class="u-btns">
+					<button type="button" class="u-btn u-btn-c4 u-btn-lg">较大灰色</button>
+					<button type="button" class="u-btn u-btn-c4 u-btn-lg"><span class="btnsel"></span></button>
+				<ul class="u-menu u-menu-rt u-menu-show">
+					<li>
+						<a href="#">下拉式菜单</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+					<li>
+						<a href="#">下拉式菜单项</a>
+					</li>
+				</ul>
+				</span>
+			</div>
+			<h2 class="my-h2">标题文本-默认大小继承</h2>
+			<div class="content">
+				<h3 class="u-tt">不定大小的标题</h3>
+				<h3 class="u-tt u-tt-sm">固定较小的标题</h3>
+				<h3 class="u-tt u-tt-md">固定中等的标题</h3>
+				<h3 class="u-tt u-tt-lg">固定较大的标题</h3>
+				<h3 class="u-tt u-tt-xl">固定很大的标题</h3>
+			</div>
+			<h2 class="my-h2">文本输入框</h2>
+			<div class="content">
+				<input type="text" class="u-ipt" />
+				<input type="text" class="u-ipt u-ipt-err" />
+				<input type="text" class="u-ipt u-ipt-1" />
+				<input type="text" class="u-ipt u-ipt-1 u-ipt-err" />
+			</div>
+			<h2 class="my-h2">水平进度条-默认蓝色</h2>
+			<div class="content">
+				<div class="u-progress"><span class="pgtrack"></span><span class="pgbar" style="width:50%"></span></div>
+				<div class="u-progress u-progress-c1"><span class="pgtrack"></span><span class="pgbar" style="width:30%"></span></div>
+				<div class="u-progress u-progress-c2"><span class="pgtrack"></span><span class="pgbar" style="width:60%"></span></div>
+				<div class="u-progress u-progress-c3"><span class="pgtrack"></span><span class="pgbar" style="width:90%"></span></div>
+			</div>
+			<h2 class="my-h2">无边图片容器-默认定宽定高、图片拉伸</h2>
+			<div class="content">
+				<span class="u-img"><a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a></span>
+				<a href="#" class="u-img"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a>
+				<span class="u-img u-img-ha"><a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a></span>
+			</div>
+			<h2 class="my-h2">有边图片容器-默认定宽定高、图片拉伸</h2>
+			<div class="content">
+				<span class="u-img2"><a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a></span>
+				<a href="#" class="u-img2"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a>
+				<span class="u-img2 u-img2-ha"><a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a></span>
+			</div>
+			<h2 class="my-h2">多点式幻灯指示控制器-默认底部居中</h2>
+			<div class="content" style="height: 50px;">
+				<span class="u-pointer"><i class="first z-crt"></i><i></i><i></i><i></i><i></i></span>
+				<span class="u-pointer u-pointer-rt"><i class="first z-crt"></i><i></i><i></i><i></i><i></i></span>
+			</div>
+			<h1 class="my-h1">模块</h1>
+			<h2 class="my-h2">多行式面包屑导航</h2>
+			<div class="content">
+				<div class="m-crumb">
+					<ul class="f-cb">
+						<li><i>|</i>
+							<a href="#">面包屑导航，竖线分隔</a>
+						</li>
+						<li><i>|</i>
+							<a href="#">面包屑，可多行</a>
+						</li>
+						<li><i>|</i>
+							<a href="#">面包屑</a>
+						</li>
+						<li><i>|</i>文字</li>
+					</ul>
+				</div>
+				<div class="m-crumb">
+					<ul class="f-cb">
+						<li><i>&gt;</i>
+							<a href="#">面包屑导航，箭头分隔</a>
+						</li>
+						<li><i>&gt;</i>
+							<a href="#">面包屑，可多行</a>
+						</li>
+						<li><i>&gt;</i>
+							<a href="#">面包屑</a>
+						</li>
+						<li><i>&gt;</i>文字</li>
+					</ul>
+				</div>
+				<div class="m-crumb m-crumb-blank">
+					<ul class="f-cb">
+						<li>
+							<a href="#">面包屑导航，空白分隔</a>
+						</li>
+						<li>
+							<a href="#">面包屑，可多行</a>
+						</li>
+						<li>
+							<a href="#">面包屑</a>
+						</li>
+						<li>文字</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="my-h2">简易文字链接列表</h2>
+			<div class="content">
+				<ul class="m-list">
+					<li>
+						<a href="#">列表项文字</a>
+					</li>
+					<li>
+						<a href="#">列表项文字或链接</a>
+					</li>
+					<li>
+						<a href="#">列表项文字</a>
+					</li>
+					<li>
+						<a href="#">列表项列表项列表项文字</a>
+					</li>
+				</ul>
+			</div>
+			<h2 class="my-h2">水平文字链接列表</h2>
+			<div class="content">
+				<div class="m-list1">
+					<ul class="f-cb">
+						<li>
+							<a href="#">列表文字</a>
+						</li>
+						<li>
+							<a href="#">文字或链接</a>
+						</li>
+						<li>
+							<a href="#">文字或链接</a>
+						</li>
+						<li>
+							<a href="#">文字</a>
+						</li>
+					</ul>
+				</div>
+				<div class="m-list1 m-list1-c1">
+					<ul class="f-cb">
+						<li>
+							<a href="#">文字</a>
+						</li>
+						<li>
+							<a href="#">文字或链接</a>
+						</li>
+						<li>
+							<a href="#">文字或链接</a>
+						</li>
+						<li>
+							<a href="#">文字</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="my-h2">带点文字链接列表-默认方点</h2>
+			<div class="content">
+				<div class="m-list2">
+					<ul>
+						<li>
+							<a href="#">带点文字链接列表，方点，颜色继承文字</a><i class="dot"></i></li>
+						<li>
+							<a href="#">列表项文字</a><i class="dot"></i></li>
+						<li>
+							<a href="#">列表项文字</a><i class="dot"></i></li>
+						<li>
+							<a href="#">列表项文字</a><i class="dot"></i></li>
+					</ul>
+				</div>
+				<div class="m-list2 m-list2-lg">
+					<ul>
+						<li>
+							<a href="#">带点文字链接列表，方点，颜色继承文字,固定文字较大</a><i class="dot"></i></li>
+						<li>
+							<a href="#">列表项文字</a><i class="dot"></i></li>
+						<li>
+							<a href="#">列表项文字</a><i class="dot"></i></li>
+						<li>
+							<a href="#">列表项文字</a><i class="dot"></i></li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="my-h2">左图右文图文列表-默认竖排</h2>
+			<div class="content">
+				<div class="m-list3">
+					<ul class="f-cb">
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<div class="txt">
+								<h3><a href="#">标题</a></h3>
+								<p>内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+							</div>
+						</li>
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<div class="txt">
+								<h3><a href="#">标题</a></h3>
+								<p>内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+							</div>
+						</li>
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<div class="txt">
+								<h3><a href="#">标题</a></h3>
+								<p>内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="m-list3 m-list3-x">
+					<ul class="f-cb">
+						<li>
+							<div class="u-img2">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<div class="txt">
+								<h3><a href="#">标题</a></h3>
+								<p>内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+							</div>
+						</li>
+						<li>
+							<div class="u-img2">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<div class="txt">
+								<h3><a href="#">标题</a></h3>
+								<p>内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+							</div>
+						</li>
+						<li>
+							<div class="u-img2">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<div class="txt">
+								<h3><a href="#">标题标题标题标题标题标题标题</a></h3>
+								<p>内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="my-h2">上图下文图文列表</h2>
+			<div class="content">
+				<div class="m-list4">
+					<ul class="f-cb">
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<h3><a href="#">有标题</a></h3>
+							<p class="f-toe">有内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+						</li>
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<h3><a href="#">有标题</a></h3>
+							<p class="f-toe">有内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+						</li>
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/3.jpg" alt="" /></a>
+							</div>
+							<h3><a href="#">有标题</a></h3>
+							<p class="f-toe">有内容描述内容描述内容描述内容描述内容描述内容描述内容描述内容描述</p>
+						</li>
+					</ul>
+				</div>
+				<div class="m-list4">
+					<ul class="f-cb">
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/2.jpg" alt="" /></a>
+							</div>
+							<h3><a href="#">有标题</a></h3>
+						</li>
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/2.jpg" alt="" /></a>
+							</div>
+							<h3><a href="#">有标题</a></h3>
+						</li>
+						<li>
+							<div class="u-img">
+								<a href="#"><img src="http://nec.netease.com/img/s/2.jpg" alt="" /></a>
+							</div>
+							<h3><a href="#">有标题</a></h3>
+						</li>
+					</ul>
+				</div>
+				<div class="m-list4">
+					<ul class="f-cb">
+						<li>
+							<div class="u-img2">
+								<a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a>
+							</div>
+						</li>
+						<li>
+							<div class="u-img2">
+								<a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a>
+							</div>
+						</li>
+						<li>
+							<div class="u-img2">
+								<a href="#"><img src="http://nec.netease.com/img/s/1.jpg" alt="" /></a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="my-h2">含标题和Tab的模块头部-默认不定宽</h2>
+			<div class="content">
+				<div class="m-hd">
+					<h2 class="u-tt">标题</h2>
+					<div class="more">
+						<a href="#">更多&raquo;</a>
+					</div>
+					<ul>
+						<li class="z-crt">
+							<a href="#">默认：居左，不定宽</a>
+						</li>
+						<li>
+							<a href="#">“标题”和“更多”可删</a>
+						</li>
+						<li>
+							<a href="#">扩展类可以自由组合</a>
+						</li>
+						<li>
+							<a href="#">标签标签</a>
+						</li>
+					</ul>
+				</div>
+				<div class="m-hd m-hd-bg">
+					<h2 class="u-tt">标题</h2>
+					<div class="more">
+						<a href="#">更多&raquo;</a>
+					</div>
+					<ul>
+						<li class="z-crt">
+							<a href="#">有背景</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签标签</a>
+						</li>
+					</ul>
+				</div>
+				<div class="m-hd m-hd-rt m-hd-sl">
+					<h2 class="u-tt">标题</h2>
+					<div class="more">
+						<a href="#">更多&raquo;</a>
+					</div>
+					<ul>
+						<li class="z-crt">
+							<a href="#">居右，无缝</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签标签</a>
+						</li>
+					</ul>
+				</div>
+				<div class="m-hd m-hd-sm">
+					<div class="more">
+						<a href="#">更多&raquo;</a>
+					</div>
+					<ul>
+						<li class="z-crt">
+							<a href="#">较小</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签标签</a>
+						</li>
+					</ul>
+				</div>
+				<div class="m-hd m-hd-rt m-hd-sm">
+					<h2 class="u-tt">标题</h2>
+					<ul>
+						<li class="z-crt">
+							<a href="#">居右，较小</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签标签</a>
+						</li>
+					</ul>
+				</div>
+				<div class="m-hd m-hd-fw">
+					<div class="more">
+						<a href="#">更多&raquo;</a>
+					</div>
+					<ul>
+						<li class="z-crt">
+							<a href="#">定宽</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签</a>
+						</li>
+						<li>
+							<a href="#">标签标签</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<h2 class="my-h2">简易表单</h2>
+			<div class="content">
+				<div class="m-form">
+					<form name="" action="#" method="get">
+						<fieldset>
+							<legend>欢迎注册账户</legend>
+							<div class="formitm">
+								<label class="lab">账号：</label>
+								<div class="ipt">
+									<input type="text" class="u-ipt" /><span class="domain">@163.com</span>
+									<p>6~8个字符，包括字母，数字，下划线以字母开头，字母或数字结尾</p>
+								</div>
+							</div>
+							<div class="formitm">
+								<label class="lab">初始密码：</label>
+								<div class="ipt">
+									<input type="text" class="u-ipt" />
+									<p>6~8个字符，区分大小写</p>
+								</div>
+							</div>
+							<div class="formitm">
+								<label class="lab">确认密码：</label>
+								<div class="ipt">
+									<input type="text" class="u-ipt" />
+									<p>再次输入密码</p>
+								</div>
+							</div>
+							<div class="formitm">
+								<label class="lab">验证码：</label>
+								<div class="ipt">
+									<input type="text" class="u-ipt" /><img class="code-img" src="http://reg.email.163.com/mailregAll/regvf1/verifyCodeImgF.jsp?env=488381217144&type=en&t=1333003692444" alt="验证码" />
+									<a href="#" class="f-ib">换一张</a>
+									<p class="tip"><input type="checkbox" id="agree" /><label for="agree">同意“服务条款”和“隐私权保护和个人信息利用政策”</label></p>
+								</div>
+							</div>
+							<div class="formitm formitm-1"><button class="u-btn" type="button">立即注册</button></div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<h2 class="my-h2">简易数据表格-格边框</h2>
+			<div class="content">
+				<table class="m-table">
+					<thead>
+						<tr>
+							<th class="cola">格边框</th>
+							<th>表头</th>
+							<th class="cola">表头</th>
+							<th class="cola">表头</th>
+							<th class="colb">表头</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr class="even">
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr>
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr class="even">
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr>
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+					</tbody>
+				</table>
+				<table class="m-table m-table-row">
+					<thead>
+						<tr>
+							<th class="cola">行边框</th>
+							<th>表头</th>
+							<th class="cola">表头</th>
+							<th class="cola">表头</th>
+							<th class="colb">表头</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr class="even">
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr>
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr class="even">
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+						<tr>
+							<td>内容</td>
+							<td>内容内容内容内容内容内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容</td>
+							<td>内容内容内容</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<h2 class="my-h2">普通翻页器-默认居中</h2>
+			<div class="content">
+				<div class="m-page">
+					<a href="#" class="first pageprv z-dis"><span class="pagearr">&lt;</span></a>
+					<a href="#">1</a>
+					<a href="#" class="z-crt">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<i>...</i>
+					<a href="#">10</a>
+					<a href="#" class="last pagenxt"><span class="pagearr">&gt;</span></a>
+				</div>
+				<div class="m-page">
+					<a href="#" class="first">1</a>
+					<a href="#" class="z-crt">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<i>...</i>
+					<a href="#" class="last">10</a>
+				</div>
+				<div class="m-page">
+					<a href="#" class="first pageprv z-dis"><span class="pagearr">&lt;</span>上一页</a>
+					<a href="#" class="last pagenxt">下一页<span class="pagearr">&gt;</span></a>
+				</div>
+				<div class="m-page m-page-lt">
+					<a href="#" class="first pageprv"><span class="pagearr">&lt;</span>上一页</a>
+					<a href="#">1</a>
+					<a href="#" class="z-crt">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<i>...</i>
+					<a href="#">10</a>
+					<a href="#" class="last pagenxt z-dis">下一页<span class="pagearr">&gt;</span></a>
+				</div>
+				<div class="m-page m-page-rt">
+					<a href="#" class="first pageprv z-dis"><span class="pagearr">&lt;</span>上一页</a>
+					<a href="#">1</a>
+					<a href="#" class="z-crt">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<i>...</i>
+					<a href="#">10</a>
+					<a href="#" class="last pagenxt">下一页<span class="pagearr">&gt;</span></a>
+				</div>
+				<div class="m-page m-page-rt m-page-sr">
+					<a href="#" class="first pageprv z-dis"><span class="pagearr">&lt;</span>上一页</a>
+					<a href="#">1</a>
+					<a href="#" class="z-crt">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<i>...</i>
+					<a href="#">10</a>
+					<a href="#" class="last pagenxt">下一页<span class="pagearr">&gt;</span></a>
+				</div>
+				<div class="m-page m-page-sr m-page-sm">
+					<a href="#" class="first pageprv z-dis"><span class="pagearr">&lt;</span>上一页</a>
+					<a href="#">1</a>
+					<a href="#" class="z-crt">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<i>...</i>
+					<a href="#">10</a>
+					<a href="#" class="last pagenxt">下一页<span class="pagearr">&gt;</span></a>
+				</div>
+			</div>
+			<h2 class="my-h2">操作型弹出浮层-默认居中</h2>
+			<div class="content">
+				<div class="m-layer ">
+					<div class="lymask"></div>
+					<table class="lytable">
+						<tbody>
+							<tr>
+								<td class="lytd">
+									<div class="lywrap">
+										<div class="lytt">
+											<h2 class="u-tt">标题</h2><span class="lyclose">×</span></div>
+										<div class="lyct">
+											<p>默认固定居中，有遮罩，按钮区标题区都可删</p>
+											<p>内容区：其他模块</p>
+										</div>
+										<div class="lybt">
+											<div class="lyother">
+												<p>其他信息，比如提示</p>
+											</div>
+											<div class="lybtns">
+												<button type="button" class="u-btn">确定</button>
+												<button type="button" class="u-btn u-btn-c4">取消</button>
+											</div>
+										</div>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(".u-btn").click(function(){
+			$(".m-layer").addClass("m-layer-show")
+		})
+	</script>
+</html>

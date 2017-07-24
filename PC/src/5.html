@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>思考与主张.psd</title>
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="asset/plug/swiper2.7.6/idangerous.swiper.css" />
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css" />
+		<script src="asset/js/mr-app.js"></script>
+		<script src="asset/js/js.js"></script>
+		<script src="asset/plug/swiper2.7.6/idangerous.swiper.js"></script>
+		<script src="asset/plug/superslide/jquery.SuperSlide.2.1.1.js"></script>
+		<!--[if lte IE 8]>
+			<link rel="stylesheet" type="text/css" href="asset/css/style-compatible.css" />
+		<![endif]-->
+		<script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+		<script src="asset/plug/jwplayer/jwplayer.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<script src="header.js"></script>
+			<div class="banner">
+				<img class="banner-bg" src="asset/img/ps1/banner-thoughts.jpg" />
+				<h2 class="title theme2 white">思考与主张<span>Thoughts and Propositions</span></h2>
+			</div>
+			<div class="inner">
+				<div class="list-book">
+					<dl class="f-cb" data-scroll-point="1" id="sk1">
+						<dt><img src="asset/img/ps1/book1.jpg"/></dt>
+						<dd>
+							<h2>田园综合体理论</h2>
+							<p>欧美日本的美丽小镇，它的长成经历了百年的沉淀。但中国的乡村现代化，人们是等不及的。从我们目前的情况来看，能不能用一种好的方法经历这个过程，是否可以用五年十年的时间，用开发建设的方式，打造中国乡村的美丽田园？</p>
+							<a href="#" class="btn theme1">阅读</a>
+						</dd>
+					</dl>
+					<dl class="f-cb" data-scroll-point="2" id="sk2">
+						<dt><img src="asset/img/ps1/book2.jpg"/></dt>
+						<dd>
+							<h2>新田园主义</h2>
+							<p>新田园主义，是一种城乡建设方法论，也是一种生活方式理念。我们发现自己在尝试搭建一套乡村建设的理论体系，并作为田园综合体实践的理论支撑。</p>
+							<p>伴随过去几年实践中的思考和对未来的展望，在《田园综合体模式研究》的基础上，我们提出“新田园主义十大主张”，用以倡导，并将在此思想框架指导下努力践行。</p>
+							<a href="#" class="btn theme1">阅读</a>
+						</dd>
+					</dl>
+				</div>
+
+			</div>
+			<script src="footer.js"></script>
+		</div>
+		<script type="text/javascript">
+			$youziku.load("body", "5493a695caec45ee9fecd0205f2bce5d", "HiraginoGBW3");
+			$youziku.draw();
+		</script>
+		<script type="text/javascript">
+			$(function() {
+				if(getQueryString("scrollPoint")!=null){
+					var st = $('[data-scroll-point=' + getQueryString("scrollPoint") + ']').offset().top;
+					setTimeout(function() {
+						$("html,body").animate({
+							scrollTop: st
+						}, 500)
+					}, 1000)
+				}
+
+			})
+
+			function getQueryString(name) {
+				var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+				var r = window.location.search.substr(1).match(reg);
+				if(r != null) {
+					return unescape(r[2]);
+				}
+				return null;
+			}
+			$(".f-cb a").click(function() {
+				var $pos = $(this).data('href');
+				$pos1 = $($pos).offset().top - 66;
+				$("html,body").animate({
+					scrollTop: $pos1
+				}, 500);
+				return false;
+			})
+		</script>
+	</body>
+
+</html>

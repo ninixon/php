@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="asset/css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="asset/css/style.css"/>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<table class="m-table">
+			<tbody>
+				<tr>
+					<td>官网：</td>
+					<td>http://www.greensock.com/</td>
+				</tr>
+				<tr>
+					<td>API：</td>
+					<td>http://greensock.com/docs</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="test" style="width: 100px; height: 100px; background: red;"></div>
+
+		<script src="asset/plug/gsap/TweenMax.min.js"></script>
+		<script type="text/javascript">
+			var mainTL = new TimelineMax();
+			mainTL.fromTo($(".test"), 1, {rotation: 0,x:0}, {rotation: 360,x:100,yoyo: true,repeat: -1})
+		</script>
+	</body>
+
+</html>
