@@ -1,0 +1,320 @@
+@charset "utf-8";
+@media screen and (max-width: 321px) {
+  .m-navlist {
+    font-size: 15px;
+  }
+}
+@media screen and (min-width: 321px) and (max-width: 400px) {
+  .m-navlist {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 400px) {
+  .m-navlist {
+    font-size: 18px;
+  }
+}
+html,
+body,
+div,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+.head {
+  width: 10rem;
+  height: 1.29333333rem;
+  background-color: black;
+  position: fixed;
+  top: 0;
+}
+.head .img {
+  margin-left: 0.36rem;
+  margin-top: 0.28rem;
+  width: 1.16rem;
+  height: 0.57333333rem;
+  float: left;
+}
+.head .img img {
+  width: 100%;
+}
+.head .online {
+  float: right;
+  width: 2.26666667rem;
+  height: 0.66666667rem;
+  margin-top: 0.36rem;
+  margin-right: 0.44rem;
+}
+.head .name {
+  margin-top: 0.28rem;
+  margin-left: 0.26666667rem;
+  padding-left: 0.26666667rem;
+  border-left: 1px solid #fff;
+  float: left;
+  width: 2.33333333rem;
+  height: 0.68rem;
+  color: white;
+  line-height: 0.33333333rem;
+}
+.head .name .title {
+  font-size: 10 px;
+}
+[data-dpr="2"] .head .name .title {
+  font-size: 20px;
+}
+[data-dpr="3"] .head .name .title {
+  font-size: 30px;
+}
+.head .name .url {
+  font-size: 10 px;
+}
+[data-dpr="2"] .head .name .url {
+  font-size: 20px;
+}
+[data-dpr="3"] .head .name .url {
+  font-size: 30px;
+}
+.content {
+  margin-top: 1.29333333rem;
+}
+.content .one {
+  height: 11.76rem;
+  width: 10rem;
+  background: url(img/1.jpg);
+  background-size: contain;
+}
+.content .one .top {
+  position: relative;
+  text-align: center;
+}
+.content .one .top p:nth-child(1) {
+  font-size: 14 px;
+  padding-top: 1.09333333rem;
+}
+[data-dpr="2"] .content .one .top p:nth-child(1) {
+  font-size: 28px;
+}
+[data-dpr="3"] .content .one .top p:nth-child(1) {
+  font-size: 42px;
+}
+.content .one .top p:nth-child(2) {
+  font-size: 26 px;
+  margin-top: 0.61333333rem;
+  margin-bottom: 0.61333333rem;
+}
+[data-dpr="2"] .content .one .top p:nth-child(2) {
+  font-size: 52px;
+}
+[data-dpr="3"] .content .one .top p:nth-child(2) {
+  font-size: 78px;
+}
+.content .one .top p:nth-child(3) {
+  font-size: 11 px;
+}
+[data-dpr="2"] .content .one .top p:nth-child(3) {
+  font-size: 22px;
+}
+[data-dpr="3"] .content .one .top p:nth-child(3) {
+  font-size: 33px;
+}
+.content .one .bottom {
+  width: 6.74666667rem;
+  height: 1.25333333rem;
+  background-color: #ff9600;
+  opacity: 0.9;
+  font-size: 20 px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  line-height: 1.25333333rem;
+  margin-top: 4.26666667rem;
+  margin-left: 1.62666667rem;
+}
+[data-dpr="2"] .content .one .bottom {
+  font-size: 40px;
+}
+[data-dpr="3"] .content .one .bottom {
+  font-size: 60px;
+}
+.content .two {
+  font-size: 14 px;
+  height: 3.22666667rem;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  background: url(img/circle.png) no-repeat;
+  background-position: center;
+  background-size: 3.4266rem 3.2266rem;
+  text-align: center;
+}
+[data-dpr="2"] .content .two {
+  font-size: 28px;
+}
+[data-dpr="3"] .content .two {
+  font-size: 42px;
+}
+.content .two .max_font {
+  font-size: 25 px;
+  color: white;
+  font-weight: bold;
+}
+[data-dpr="2"] .content .two .max_font {
+  font-size: 50px;
+}
+[data-dpr="3"] .content .two .max_font {
+  font-size: 75px;
+}
+.content .two .min_font {
+  font-size: 12 px;
+}
+[data-dpr="2"] .content .two .min_font {
+  font-size: 24px;
+}
+[data-dpr="3"] .content .two .min_font {
+  font-size: 36px;
+}
+.content .two p {
+  margin-top: 0.93333333rem;
+}
+.content .three {
+  background: url(img/2.jpg);
+  background-size: contain;
+  height: 1.65333333rem;
+  widht: 10rem;
+  text-align: center;
+  font-size: 12 px;
+}
+[data-dpr="2"] .content .three {
+  font-size: 24px;
+}
+[data-dpr="3"] .content .three {
+  font-size: 36px;
+}
+.content .three p {
+  height: 0.32rem;
+  padding-top: 0.42666667rem;
+  color: red;
+}
+.content .four {
+  background-color: #fafafa;
+}
+.content .four ul li {
+  float: left;
+  width: 50%;
+  padding-bottom: 0.93333333rem;
+  text-align: center;
+}
+.content .four ul li img {
+  margin-top: 0.93333333rem;
+}
+.content .four ul li .p1 {
+  font-size: 14 px;
+  font-weight: bold;
+  margin-top: 0.30666667rem;
+  margin-bottom: 0.30666667rem;
+}
+[data-dpr="2"] .content .four ul li .p1 {
+  font-size: 28px;
+}
+[data-dpr="3"] .content .four ul li .p1 {
+  font-size: 42px;
+}
+.content .four ul li .p2 {
+  font-size: 11 px;
+}
+[data-dpr="2"] .content .four ul li .p2 {
+  font-size: 22px;
+}
+[data-dpr="3"] .content .four ul li .p2 {
+  font-size: 33px;
+}
+.content .five {
+  padding-bottom: 1.22666667rem;
+}
+.content .five ul li {
+  float: left;
+  height: 1.25333333rem;
+  width: 10rem;
+  margin-top: 0.89333333rem;
+}
+.content .five ul li p {
+  margin-left: 3.14666667rem;
+  margin-top: 0.24rem;
+  font-size: 12 px;
+}
+[data-dpr="2"] .content .five ul li p {
+  font-size: 24px;
+}
+[data-dpr="3"] .content .five ul li p {
+  font-size: 36px;
+}
+.content .five .bg1 {
+  background: url(img/T_1.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.content .five .bg2 {
+  background: url(img/T_2.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.content .five .bg3 {
+  background: url(img/T_3.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.content .six {
+  width: 10rem;
+  height: 1.17333333rem;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+.content .six p {
+  padding-top: 0.26666667rem;
+  padding-left: 0.56rem;
+  padding-right: 0.56rem;
+  padding-bottom: 0.26666667rem;
+  font-size: 14 px;
+  line-height: 0.37333333rem;
+}
+[data-dpr="2"] .content .six p {
+  font-size: 28px;
+}
+[data-dpr="3"] .content .six p {
+  font-size: 42px;
+}
+.footer {
+  width: 10rem;
+  height: 1rem;
+  background: url(img/3.jpg) no-repeat;
+  background-size: contain;
+  position: fixed;
+  bottom: 0;
+}
+.footer .left,
+.footer .mid,
+.footer .right {
+  position: absolute;
+  font-size: 12 px;
+  color: white;
+  top: 0.33333333rem;
+}
+[data-dpr="2"] .footer .left,
+[data-dpr="2"] .footer .mid,
+[data-dpr="2"] .footer .right {
+  font-size: 24px;
+}
+[data-dpr="3"] .footer .left,
+[data-dpr="3"] .footer .mid,
+[data-dpr="3"] .footer .right {
+  font-size: 36px;
+}
+.footer .left {
+  left: 0.8rem;
+}
+.footer .mid {
+  left: 4.66666667rem;
+}
+.footer .right {
+  left: 7.73333333rem;
+}
