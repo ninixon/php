@@ -1,19 +1,4 @@
 @charset "utf-8";
-@media screen and (max-width: 321px) {
-  .m-navlist {
-    font-size: 15px;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 400px) {
-  .m-navlist {
-    font-size: 16px;
-  }
-}
-@media screen and (min-width: 400px) {
-  .m-navlist {
-    font-size: 18px;
-  }
-}
 html,
 body,
 div,
@@ -28,6 +13,7 @@ li {
   background-color: black;
   position: fixed;
   top: 0;
+  z-index: 10;
 }
 .head .img {
   margin-left: 0.36rem;
@@ -58,7 +44,7 @@ li {
   line-height: 0.33333333rem;
 }
 .head .name .title {
-  font-size: 10 px;
+  font-size: 10px;
 }
 [data-dpr="2"] .head .name .title {
   font-size: 20px;
@@ -67,7 +53,7 @@ li {
   font-size: 30px;
 }
 .head .name .url {
-  font-size: 10 px;
+  font-size: 10px;
 }
 [data-dpr="2"] .head .name .url {
   font-size: 20px;
@@ -89,7 +75,7 @@ li {
   text-align: center;
 }
 .content .one .top p:nth-child(1) {
-  font-size: 14 px;
+  font-size: 14px;
   padding-top: 1.09333333rem;
 }
 [data-dpr="2"] .content .one .top p:nth-child(1) {
@@ -99,7 +85,7 @@ li {
   font-size: 42px;
 }
 .content .one .top p:nth-child(2) {
-  font-size: 26 px;
+  font-size: 26px;
   margin-top: 0.61333333rem;
   margin-bottom: 0.61333333rem;
 }
@@ -110,7 +96,7 @@ li {
   font-size: 78px;
 }
 .content .one .top p:nth-child(3) {
-  font-size: 11 px;
+  font-size: 11px;
 }
 [data-dpr="2"] .content .one .top p:nth-child(3) {
   font-size: 22px;
@@ -123,7 +109,7 @@ li {
   height: 1.25333333rem;
   background-color: #ff9600;
   opacity: 0.9;
-  font-size: 20 px;
+  font-size: 20px;
   font-weight: bold;
   text-align: center;
   color: #fff;
@@ -138,7 +124,7 @@ li {
   font-size: 60px;
 }
 .content .two {
-  font-size: 14 px;
+  font-size: 14px;
   height: 3.22666667rem;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
@@ -154,7 +140,7 @@ li {
   font-size: 42px;
 }
 .content .two .max_font {
-  font-size: 25 px;
+  font-size: 25px;
   color: white;
   font-weight: bold;
 }
@@ -165,7 +151,7 @@ li {
   font-size: 75px;
 }
 .content .two .min_font {
-  font-size: 12 px;
+  font-size: 12px;
 }
 [data-dpr="2"] .content .two .min_font {
   font-size: 24px;
@@ -182,7 +168,7 @@ li {
   height: 1.65333333rem;
   widht: 10rem;
   text-align: center;
-  font-size: 12 px;
+  font-size: 12px;
 }
 [data-dpr="2"] .content .three {
   font-size: 24px;
@@ -206,9 +192,11 @@ li {
 }
 .content .four ul li img {
   margin-top: 0.93333333rem;
+  width: 1.57333333rem;
+  height: 1.57333333rem;
 }
 .content .four ul li .p1 {
-  font-size: 14 px;
+  font-size: 14px;
   font-weight: bold;
   margin-top: 0.30666667rem;
   margin-bottom: 0.30666667rem;
@@ -220,7 +208,7 @@ li {
   font-size: 42px;
 }
 .content .four ul li .p2 {
-  font-size: 11 px;
+  font-size: 11px;
 }
 [data-dpr="2"] .content .four ul li .p2 {
   font-size: 22px;
@@ -240,7 +228,7 @@ li {
 .content .five ul li p {
   margin-left: 3.14666667rem;
   margin-top: 0.24rem;
-  font-size: 12 px;
+  font-size: 12px;
 }
 [data-dpr="2"] .content .five ul li p {
   font-size: 24px;
@@ -268,26 +256,28 @@ li {
   height: 1.17333333rem;
   background-color: #f0f0f0;
   text-align: center;
+  padding-top: 0.26666667rem;
+  padding-bottom: 0.8rem;
 }
 .content .six p {
-  padding-top: 0.26666667rem;
   padding-left: 0.56rem;
   padding-right: 0.56rem;
-  padding-bottom: 0.26666667rem;
-  font-size: 14 px;
+  font-size: 9px;
   line-height: 0.37333333rem;
 }
 [data-dpr="2"] .content .six p {
-  font-size: 28px;
+  font-size: 18px;
 }
 [data-dpr="3"] .content .six p {
-  font-size: 42px;
+  font-size: 27px;
 }
 .footer {
   width: 10rem;
-  height: 1rem;
+  height: 0.98666667rem;
   background: url(img/3.jpg) no-repeat;
-  background-size: contain;
+  background-size: 100%;
+  -ms-background-position-x: 0px;
+  background-position-x: 0px;
   position: fixed;
   bottom: 0;
 }
@@ -295,7 +285,7 @@ li {
 .footer .mid,
 .footer .right {
   position: absolute;
-  font-size: 12 px;
+  font-size: 12px;
   color: white;
   top: 0.33333333rem;
 }
