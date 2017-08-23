@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        $(function () {
+            var img = $("img");
+            var num = 0;
+
+            img.each(function (i) {
+                var oImg = new Image();
+
+                oImg.onload = function () {
+
+                    oImg.onload = null;
+
+                    num++;
+
+                    $(".loading b").html(paseInt(num/$("img").size()*100)+"%");
+                    if(num >= i){
+                        $(".loading").fadeOut();
+                    }
+                }
+                oImg.src = img[i].src;
+
+            });
+        })
+    </script>
+</head>
+
+<body>
+
+</body>
+</html>
