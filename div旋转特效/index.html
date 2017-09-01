@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>DIV旋转属性的演示</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />
+<style type="text/css"> 
+body {
+font-family: "Arial", sans-serif;
+}
+#ptOfRef {
+border: #000 solid 3px;
+background: #6FF;
+width: 50%;
+height: 50%;
+position: absolute;
+}
+#example {
+position: absolute;
+<!-- top: 50%; -->
+<!-- left: 50%; -->
+border: #09F solid 1px;
+background: #F90;
+font-weight: 900;
+color: #FFF;
+display: block;
+width: 50%;
+height: 50%;
+margin-top: -1px;
+margin-left: -1px;
+transform: rotate(40deg);
+-o-transform: rotate(40deg);
+-webkit-transform: rotate(90deg);
+-moz-transform: rotate(40deg);
+filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7660444431189777, M12=-0.6427876096865394, M21=0.6427876096865398, M22=0.7660444431189779)";
+}
+</style>
+<!--[if IE]>
+<style type="text/css">
+#example {
+top: 50px;
+left: 50px;
+}
+</style>
+<![endif]-->
+    <script>
+        function hengshuping(){
+            window.location.reload();
+        }
+        window.addEventListener("onorientationchange" in window ? "orientationchange" : "resize", hengshuping, false);
+    </script>
+</head>
+<body>
+<div id="ptOfRef"></div>
+<div id="example"> 旋转成功</div>
+</body>
+</html>

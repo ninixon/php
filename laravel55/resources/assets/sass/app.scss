@@ -1,0 +1,20 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+.aa{
+  font-size: 32px;
+  color:red;
+  top:0;
+  bottom:0;
+  margin-top:100px;
+  margin-bottom:200px;
+
+  margin-left: 20px;
+}

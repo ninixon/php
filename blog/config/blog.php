@@ -35,7 +35,7 @@ return [
     'article' => [
         'title'       => 'Nothing is impossible.',
         'description' => 'https://pigjian.com',
-        'number'      => 15,
+        'number'      => 5,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
     ],
