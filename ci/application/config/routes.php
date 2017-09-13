@@ -38,11 +38,13 @@
 |
 */
 //$route['news/(:any)'] = 'news/view/$1';
-$route['news'] = 'news';
-$route['(:any)'] = 'pages/view/$1';
-$route['default_controller'] = 'pages/view';
-
-$route['news/create'] = 'news/create';
-$route['news/(:any)'] = 'news/view/$1';
+//$route['news/show/(:any)'] = 'news/show/$1';
+//$route['news'] = 'news';
+//$route['(:any)'] = 'pages/view/$1';
+//$route['default_controller'] = 'pages/view';
+//
+//$route['news/create'] = 'news/create';
+//$route['news/(:any)'] = 'news/view/$1';
+//$route['news/show/(:any)'] = 'news/show/$1';
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

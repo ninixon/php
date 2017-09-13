@@ -4,6 +4,6 @@
     <div class="main">
         <?php echo $news_item['text'] ?>
     </div>
-    <p><a href="http://ci.app/news/<?php echo $news_item['slug'] ?>">View article</a></p>
+    <p><a href="http://ci.app/news/show/<?php echo $news_item['slug'] ?>">View article</a></p>
 
 <?php endforeach ?>

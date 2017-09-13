@@ -55,5 +55,15 @@ class News extends CI_Controller {
             $this->load->view('news/success');
         }
     }
+    public function show($slug)
+    {
+
+        $data['news'] = $this->news_model->get_news($slug);
+        $data['title'] = 'News archive';
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('news/show', $data);
+        $this->load->view('templates/footer');
+    }
 
 }
