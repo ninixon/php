@@ -1,0 +1,864 @@
+@charset "utf-8";
+//@media screen and (max-width:321px){
+//  .m-navlist{font-size:15px}
+//}
+//
+//@media screen and (min-width:321px) and (max-width:400px){
+//  .m-navlist{font-size:16px}
+//}
+//
+//@media screen and (min-width:400px){
+//  .m-navlist{font-size:18px}
+//}
+//定义一个变量和一个mixin
+
+@baseFontSize: 75; //基于视觉稿横屏尺寸/100得出的基准font-size
+.px2rem(@name, @px) {
+    @{name}: @px / @baseFontSize * 1rem;
+}
+
+.px3rem(@name, @px,@px2) {
+    @{name}: @px / @baseFontSize * 1rem @px2 / @baseFontSize * 1rem;
+}
+
+.font-dpr(@font-size) {
+  font-size: @font-size*1px;
+
+  [data-dpr="2"] & {
+    font-size: @font-size * 2px;
+  }
+
+  [data-dpr="3"] & {
+    font-size: @font-size * 3px;
+  }
+}
+
+//使用示例：
+.container {
+  //.px2rem(height, 240);
+}
+
+//less翻译结果：
+.container {
+  //height: 3.2rem;
+}
+
+html, body, div, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes bounceInLeft {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(-100px, 0, 0);
+  }
+
+  60% {
+    opacity: 1;
+    /*transform: translate3d(25px, 0, 0);*/
+  }
+
+  75% {
+    /*transform: translate3d(-10px, 0, 0);*/
+  }
+
+  90% {
+    /*transform: translate3d(5px, 0, 0);*/
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInLeft {
+  animation-name: bounceInLeft;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@keyframes bounceInRight {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  from {
+    transform: translate3d(3000px, 0, 0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+
+.bounceInRight {
+  animation-name: bounceInRight;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-name: bounceInRight;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+//@-webkit-keyframes fadeIn {
+//  0% {
+//    opacity: 0; /*初始状态 透明度为0*/
+//  }
+//  50% {
+//    opacity: 0.5; /*中间状态 透明度为0*/
+//  }
+//  100% {
+//    opacity: 1; /*结尾状态 透明度为1*/
+//  }
+//}
+
+.start {
+  background: url(../img/start_bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  .title {
+    position: absolute;
+    .px2rem(right, 30);
+    .px2rem(top, 30);
+    .px2rem(width, 322);
+    .px2rem(height, 77);
+    background: url("../img/start_title.png") no-repeat;
+    .px3rem(background-size, 322, 77);
+    display: none;
+  }
+  .left {
+    position: absolute;
+    .px2rem(left, 0);
+    .px2rem(top, 0);
+    .px2rem(width, 750);
+    .px2rem(height, 545);
+    background: url("../img/start_1.png") no-repeat;
+    .px3rem(background-size, 750, 545);
+  }
+  .right {
+    position: absolute;
+    .px2rem(right, 0);
+    .px2rem(top, 165);
+    .px2rem(width, 286);
+    .px2rem(height, 333);
+    background: url("../img/start_2.png") no-repeat;
+    .px3rem(background-size, 286, 333);
+  }
+  .mid {
+    position: absolute;
+    .px2rem(right, 0);
+    .px2rem(top, 370);
+    .px2rem(width, 750);
+    .px2rem(height, 861);
+    background: url("../img/start_mid.png") no-repeat;
+    .px3rem(background-size, 750, 861);
+    z-index: 2;
+  }
+  .button {
+    background: url("../img/start.png") no-repeat;
+    .px3rem(background-size, 331, 134);
+    position: absolute;
+    .px2rem(width, 331);
+    .px2rem(height, 134);
+    .px2rem(left, 205);
+    .px2rem(bottom, 90);
+    z-index: 3;
+  }
+  .rule {
+    position: absolute;
+    .px2rem(left, 305);
+    .px2rem(bottom, 30);
+    z-index: 3;
+    a {
+      color: #f79202;
+      .font-dpr(16);
+      text-decoration: underline;
+    }
+  }
+  .rule_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 103;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    .font-dpr(13);
+    .out {
+      width: 72%;
+      margin: 0 auto;
+      margin-top: 20%;
+      position: relative;
+      h1 {
+        .font-dpr(19);
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+      }
+      .time {
+        .font-dpr(14);
+        font-weight: bold;
+        text-align: left;
+        width: 100%;
+        .px2rem(margin-top, 30);
+        .px2rem(margin-bottom, 10);
+        .px2rem(line-height, 50);
+      }
+      .content {
+        .font-dpr(14);
+        text-align: left;
+        width: 100%;
+        .px2rem(line-height, 50);
+      }
+    }
+    display: none;
+  }
+//display: none;
+}
+.tishi(@pic){
+  .remind{
+    position: absolute;
+    background: url(@pic) no-repeat;
+    .px3rem(background-size, 353, 64);
+    .px2rem(width, 353);
+    .px2rem(height, 64);
+    .px2rem(right, 199);
+    .px2rem(bottom, 30);
+    z-index: 3;
+  }
+}
+
+.screen1 {
+  background: url(../img/screen1_bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+  .text1 {
+    position: absolute;
+    background: url(../img/screen1_pic1.png);
+    .px3rem(background-size, 716, 408);
+    .px2rem(width, 716);
+    .px2rem(height, 408);
+    .px2rem(left, 27);
+    .px2rem(bottom, 700);
+    display: none;
+  }
+  .text2 {
+    position: absolute;
+    background: url(../img/screen1_pic2.png);
+    .px3rem(background-size, 716, 408);
+    .px2rem(width, 716);
+    .px2rem(height, 408);
+    .px2rem(left, 27);
+    .px2rem(bottom, 700);
+    display: none;
+  }
+  .people {
+    position: absolute;
+    background: url(../img/screen1_people.png);
+    .px3rem(background-size, 249, 229);
+    .px2rem(width, 249);
+    .px2rem(height, 229);
+    .px2rem(left, 135);
+    .px2rem(bottom, 460);
+    z-index: 3;
+  }
+  .car1 {
+    position: absolute;
+    background: url(../img/screen1_car.png);
+    .px3rem(background-size, 320, 278);
+    .px2rem(width, 320);
+    .px2rem(height, 278);
+    .px2rem(left, 330);
+    .px2rem(bottom, 0);
+    z-index: 2;
+  }
+  .button1 {
+    position: absolute;
+    background: url(../img/screen1_button1.png);
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(left, 33);
+    .px2rem(bottom, 90);
+    z-index: 3;
+  }
+  .button2 {
+    position: absolute;
+    background: url(../img/screen1_button2.png) no-repeat;
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(right, 33);
+    .px2rem(bottom, 90);
+    z-index: 3;
+  }
+  .tishi('../img/remind1.png');
+
+}
+
+.screen2 {
+  background: url(../img/screen2_bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+  .text1 {
+    position: absolute;
+    background: url(../img/screen2_pic1.png);
+    .px3rem(background-size, 716, 408);
+    .px2rem(width, 716);
+    .px2rem(height, 408);
+    .px2rem(left, 27);
+    .px2rem(bottom, 700);
+    display: none;
+  }
+  .text2 {
+    position: absolute;
+    background: url(../img/screen2_pic2.png);
+    .px3rem(background-size, 716, 408);
+    .px2rem(width, 716);
+    .px2rem(height, 408);
+    .px2rem(left, 27);
+    .px2rem(bottom, 700);
+    display: none;
+  }
+  .car2 {
+    position: absolute;
+    background: url(../img/screen2_car.png);
+    .px3rem(background-size, 490, 276);
+    .px2rem(width, 490);
+    .px2rem(height, 276);
+    .px2rem(left, -500);
+    .px2rem(bottom, 262);
+    z-index: 2;
+  }
+  .button1 {
+    position: absolute;
+    background: url(../img/screen2_button1.png);
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(left, 33);
+    .px2rem(bottom, 90);
+  }
+  .button2 {
+    position: absolute;
+    background: url(../img/screen2_button2.png) no-repeat;
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(right, 33);
+    .px2rem(bottom, 90);
+  }
+  .tishi('../img/remind1.png');
+}
+
+.screen3 {
+  background: url(../img/screen3_bg.jpg) no-repeat;
+  .px3rem(background-size,750,1217);
+  .px2rem(width,750);
+  .px2rem(height,1217);
+  background-color: #59575c;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+  .text1 {
+    position: absolute;
+    background: url(../img/pic2.png);
+    .px3rem(background-size, 716, 408);
+    .px2rem(width, 716);
+    .px2rem(height, 408);
+    .px2rem(left, 27);
+    .px2rem(bottom, 700);
+    display: none;
+  }
+  .text2 {
+    position: absolute;
+    background: url(../img/pic1.png);
+    .px3rem(background-size, 716, 408);
+    .px2rem(width, 716);
+    .px2rem(height, 408);
+    .px2rem(left, 27);
+    .px2rem(bottom, 700);
+    display: none;
+  }
+  .why{
+    position: absolute;
+    background: url(../img/why.png);
+    .px3rem(background-size, 56, 47);
+    .px2rem(width, 56);
+    .px2rem(height, 47);
+    .px2rem(right, 125);
+    .px2rem(top, 725);
+    display: none;
+  }
+  .people{
+    position: absolute;
+    background: url(../img/screen3_people.png);
+    .px3rem(background-size, 160, 167);
+    .px2rem(width, 160);
+    .px2rem(height, 167);
+    .px2rem(left, 300);
+    .px2rem(top, 600);
+  }
+  .button1 {
+    position: absolute;
+    background: url(../img/pic3.png);
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(left, 33);
+    .px2rem(bottom, 90);
+  }
+  .button2 {
+    position: absolute;
+    background: url(../img/pic4.png) no-repeat;
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(right, 33);
+    .px2rem(bottom, 90);
+    z-index: 1;
+  }
+  .tishi('../img/remind2.png');
+}
+
+.screen4 {
+  background: url(../img/screen4_bg.jpg);
+  .px3rem(background-size, 750, 1217);
+  .px2rem(width, 750);
+  .px2rem(height, 1217);
+  position: relative;
+  display: none;
+  .jihui {
+    display: none;
+  }
+  .top {
+    position: absolute;
+    background: url(../img/screen4_1.png);
+    .px3rem(background-size, 664, 819);
+    .px2rem(width, 664);
+    .px2rem(height, 819);
+    .px2rem(left, 46);
+    .px2rem(bottom, 230);
+    .out {
+      .px2rem(width, 485);
+      .px2rem(height, 491);
+      position: relative;
+      //border:1px solid white;
+      .px2rem(margin-top, 173);
+      .px2rem(margin-left, 92);
+      .com {
+        float: right;
+        .px2rem(margin-right, 7.5);
+        .px2rem(margin-bottom, 7);
+        background: url(../img/red.png);
+        .px3rem(background-size, 154, 156);
+        .px2rem(width, 154);
+        .px2rem(height, 156);
+        text-align: center;
+        //display: table-cell;
+        //.px2rem(line-height,156);
+        img {
+          //display: inline-block;
+          //vertical-align: middle;
+          width: 100%;
+        }
+      }
+      .draw {
+        float: right;
+        .px2rem(margin-right, 7);
+        .px2rem(margin-bottom, 7);
+        background: url(../img/yellow2.png);
+        .px3rem(background-size, 154, 156);
+        .px2rem(width, 154);
+        .px2rem(height, 156);
+        text-align: center;
+        display: table-cell;
+        .px2rem(line-height, 156);
+        img {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+      .active {
+        float: right;
+        .px2rem(margin-right, 7);
+        .px2rem(margin-bottom, 7);
+        background: url(../img/yellow.png);
+        .px3rem(background-size, 154, 156);
+        .px2rem(width, 154);
+        .px2rem(height, 156);
+        text-align: center;
+        display: table-cell;
+        .px2rem(line-height, 156);
+        img {
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+
+    }
+  }
+  .sorry {
+    position: absolute;
+    background: url(../img/sorry.png);
+    .px3rem(background-size, 561, 577);
+    .px2rem(width, 561);
+    .px2rem(height, 577);
+    .px2rem(left, 95);
+    .px2rem(bottom, 413);
+    z-index: 5;
+    .out {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        left: 25%;
+        bottom: 5%;
+      }
+    }
+    display: none;
+  }
+  .flow_card {
+    position: absolute;
+    background: url(../img/alert_flow_card.png);
+    .px3rem(background-size, 561, 678);
+    .px2rem(width, 561);
+    .px2rem(height, 678);
+    .px2rem(left, 95);
+    .px2rem(top, 220);
+    z-index: 5;
+    .out {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        left: 25%;
+        bottom: 5%;
+      }
+      .name2, .mobile2 {
+        position: absolute;
+        .px2rem(left, 150);
+        input {
+          .px2rem(height, 58);
+          .px2rem(width, 350);
+          border: 2px solid #fb4439;
+          .font-dpr(17);
+        }
+      }
+      .name2 {
+        .px2rem(top, 296);
+      }
+
+      .mobile2 {
+        .px2rem(top, 412);
+      }
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 13%;
+        left: 25%;
+        bottom: 5%;
+      }
+    }
+    display: none;
+  }
+  .sos {
+    position: absolute;
+    background: url(../img/alert_sos.png);
+    .px3rem(background-size, 561, 729);
+    .px2rem(width, 561);
+    .px2rem(height, 729);
+    .px2rem(left, 95);
+    .px2rem(top, 220);
+    z-index: 5;
+    .out {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        left: 25%;
+        bottom: 5%;
+      }
+      .name1, .mobile1, .address1 {
+        position: absolute;
+        .px2rem(left, 150);
+        input {
+          .px2rem(height, 58);
+          .px2rem(width, 350);
+          border: 2px solid #fb4439;
+          .font-dpr(17);
+        }
+      }
+      .name1 {
+        .px2rem(top, 288);
+      }
+
+      .mobile1 {
+        .px2rem(top, 390);
+      }
+      .address1 {
+        .px2rem(top, 490);
+      }
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 13%;
+        left: 25%;
+        bottom: 5%;
+      }
+    }
+    display: none;
+  }
+  .camera {
+    position: absolute;
+    background: url(../img/alert_camera.png);
+    .px3rem(background-size, 561, 695);
+    .px2rem(width, 561);
+    .px2rem(height, 695);
+    .px2rem(left, 95);
+    .px2rem(top, 220);
+    z-index: 5;
+    display: none;
+    .out {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 20%;
+        left: 25%;
+        bottom: 5%;
+      }
+      .title {
+        position: absolute;
+        .px2rem(top, 100);
+
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        .font-dpr(17);
+      }
+      .name, .mobile, .address {
+        position: absolute;
+        .px2rem(left, 150);
+        input {
+          .px2rem(height, 58);
+          .px2rem(width, 350);
+          border: 2px solid #fb4439;
+          .font-dpr(17);
+        }
+      }
+      .name {
+        .px2rem(top, 282);
+      }
+      .address {
+        .px2rem(top, 383);
+      }
+      .mobile {
+        .px2rem(top, 484);
+      }
+      .button {
+        position: absolute;
+        width: 50%;
+        height: 13%;
+        left: 25%;
+        bottom: 5%;
+      }
+    }
+  }
+  .bg {
+    position: absolute;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 4;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  .button1 {
+    position: absolute;
+    background: url(../img/screen4_button1.png);
+    .px3rem(background-size, 332, 140);
+    .px2rem(width, 332);
+    .px2rem(height, 140);
+    .px2rem(left, 220);
+    .px2rem(bottom, 65);
+    z-index: 3;
+  }
+  //.button2 {
+  //  position: absolute;
+  //  background: url(../img/screen4_button2.png) no-repeat;
+  //  .px3rem(background-size, 332, 140);
+  //  .px2rem(width, 332);
+  //  .px2rem(height, 140);
+  //  .px2rem(right, 33);
+  //  .px2rem(bottom, 65);
+  //  z-index: 3;
+  //}
+}
+
+.screen5 {
+  background: url(../img/screen5_bg.jpg);
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: none;
+  .text1 {
+    position: absolute;
+    background: url(../img/text.png);
+    .px3rem(background-size, 721, 240);
+    .px2rem(width, 721);
+    .px2rem(height, 240);
+    .px2rem(left, 14);
+    .px2rem(bottom, 80);
+    .content {
+      position: absolute;
+      text-align: center;
+      color: white;
+      .px2rem(width, 618);
+      .px2rem(height, 175);
+      .px2rem(top, 40);
+      .px2rem(left, 50);
+      .font-dpr(17);
+      @media screen and (max-width: 650px) {
+        font-size:15px;
+      }
+      font-weight: bold;
+      span {
+        color: #ffd33b;
+      }
+    }
+  }
+  .button{
+    position: absolute;
+    background: url(../img/hand.png);
+    .px3rem(background-size, 69, 92);
+    .px2rem(width, 69);
+    .px2rem(height, 92);
+    .px2rem(right, 20);
+    .px2rem(bottom, 20);
+    animation:mymove 1s infinite;
+    display: none;
+  }
+  .button1 {
+    position: absolute;
+    color: #ffffff;
+    font-weight: bold;
+    .px2rem(bottom, 38);
+    width: 100%;
+    text-align: center;
+    .font-dpr(16);
+  }
+  a{
+    color: white;
+  }
+}
+@keyframes mymove
+{
+  from {.px2rem(right,20);.px2rem(bottom,20)}
+  to {.px2rem(right,50);.px2rem(bottom,50)}
+}
+
+.background {
+  position: absolute;
+  z-index: 109;
+  width: 100%;
+  height: 100%;
+  .px2rem(height, 1217);
+  background-color: black;
+  opacity: 0.7;
+  top: 0;
+  left: 0;
+}
+
+.alert {
+  position: absolute;
+  z-index: 110;
+  width: 100%;
+  top: 50%;
+  color: #ffffff;
+  font-size: 0.5rem;
+  text-align: center;
+  .alertInner {
+    width: 100%;
+  }
+}
+
+.share {
+  position: absolute;
+  background-size: 100% 100%;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  z-index: 101;
+  display: none;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  img {
+    display: block;
+    position: absolute;
+    .px2rem(width, 174);
+    .px2rem(top, 40);
+    .px2rem(right, 30);
+  }
+}
+.music{
+  position: absolute;
+  // background: url(../img/music.png);
+  .px3rem(background-size, 80, 80);
+  .px2rem(width, 80);
+  .px2rem(height, 80);
+  .px2rem(right, 10);
+  .px2rem(top, 100);
+  z-index: 1;
+}
+.music img{
+  width: 100%;
+}
+.music_active{
+  animation:mymusic 2.5s linear infinite;
+}
+@keyframes mymusic
+{
+  100% {
+    transform: rotate(1turn);
+  }
+}

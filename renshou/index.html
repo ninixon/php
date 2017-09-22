@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <title>礼让斑马线</title>
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/landscape/landscape.css" rel="stylesheet">
+    <link href="css/fakeLoader.css" rel="stylesheet">
+    <!--<link href="css/music.css" rel="stylesheet">-->
+    <script src="js/flexible.js"></script>
+
+    <!--<meta content="yes" name="apple-mobile-web-app-capable">-->
+    <!--<meta content="yes" name="apple-touch-fullscreen">-->
+    <!--<meta content="telephone=no,email=no" name="format-detection">-->
+    <!--<script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>-->
+
+    <script src="js/preload.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body>
+<div class="fakeloader" id="loader"
+     style="position: fixed; width: 100%; height: 100%; top: 0px; left: 0px; background-color: #040726; z-index: 999;">
+    <div class="spinner2">
+        <div class="spinner-container container1">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+        </div>
+        <div class="spinner-container container2">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+        </div>
+        <div class="spinner-container container3">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+            <div class="circle4"></div>
+        </div>
+    </div>
+</div>
+<div style="display: none">
+    <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+    document.write(unescape("%3Cspan id='cnzz_stat_icon_1264458895'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1264458895%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<!--横竖屏-->
+<div class="landscape">
+    <table>
+        <tbody>
+        <tr>
+            <td><img src="img/iphone.png" />
+                <p>为了更好的体验，请使用竖屏预览！</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<!--music-->
+<audio id="Jaudio" class="media-audio" src="music/music.mp3" preload loop="loop"></audio >
+
+<!--背景音乐-->
+<div class="music"><img src="img/music.png" class="music_active"/></div>
+
+<div class="start">
+    <div class="title"></div>
+    <div class="left bounceInLeft"></div>
+    <div class="right bounceInRight"></div>
+    <div class="mid"></div>
+    <div class="button"></div>
+    <div class="rule"><a href="javascript:void (0)">活动规则</a></div>
+    <div class="rule_content">
+        <div class="out">
+            <h1>礼让斑马线，文明在路上</h1>
+            <div class="time">活动时间：2017年9月23日－10月12日<br>
+                活动规则：
+            </div>
+            <div class="content">1、根据提供的不同场景，点击选择正确的出行“姿势”，让我们一起为交通安全文明出行接力。<br>
+                2、参与即时抽奖，赢取精美礼品，更有专属文明出行证书！<br>
+                3、本次活动最终解释权归中国人寿财产保险股份有限公司所有。
+            </div>
+        </div>
+    </div>
+</div>
+<div class="screen1">
+    <div class="text1"></div>
+    <div class="text2"></div>
+    <div class="people bounceInLeft"></div>
+    <div class="car1"></div>
+    <div class="button1"></div>
+    <div class="button2"></div>
+    <div class="remind"></div>
+</div>
+<div class="screen2">
+    <div class="text1"></div>
+    <div class="text2"></div>
+    <div class="car2"></div>
+    <div class="button1"></div>
+    <div class="button2"></div>
+    <div class="remind"></div>
+</div>
+<div class="screen3">
+    <div class="text1"></div>
+    <div class="text2"></div>
+    <div class="why"></div>
+    <div class="people"></div>
+    <div class="button1"></div>
+    <div class="button2"></div>
+    <div class="remind"></div>
+</div>
+<div class="screen4">
+    <div class="jihui"><span>1</span></div>
+    <div class="top">
+        <div class="out choujiang-box" id="lottery">
+            <div class="com lottery-unit lottery-unit-2" data-money=0><img src="img/thank.png"></div>
+            <div class="com lottery-unit lottery-unit-1" data-money=1><img src="img/sos.png"></div>
+            <div class="com lottery-unit lottery-unit-0" data-money=2><img src="img/camera.png"></div>
+            <div class="com lottery-unit lottery-unit-3" data-money=3><img src="img/flow_card.png"></div>
+            <div class="com draw"><a href="javascript:void(0)"><img src="img/draw.png"></a></div>
+            <div class="com lottery-unit lottery-unit-7" data-money=4><img src="img/taiya.png"></div>
+            <div class="com lottery-unit lottery-unit-4" data-money=5><img src="img/3M.png"></div>
+            <div class="com lottery-unit lottery-unit-5" data-money=0><img src="img/thank.png"></div>
+            <div class="com lottery-unit lottery-unit-6" data-money=3><img src="img/flow_card.png"></div>
+        </div>
+    </div>
+    <div class="sorry">
+        <div class="out">
+            <div class="button"></div>
+        </div>
+    </div>
+    <div class="flow_card">
+        <div class="out">
+            <div class="name2"><input type="text" name="link_name" class="link_name2" style="border-radius: 5px;">
+            </div>
+            <div class="mobile2"><input type="text" name="link_mobile" class="link_mobile2"
+                                        style="border-radius: 5px;"></div>
+            <div class="button"></div>
+        </div>
+    </div>
+    <div class="sos">
+        <div class="out">
+            <div class="name1"><input type="text" name="link_name" class="link_name1" style="border-radius: 5px;">
+            </div>
+            <div class="mobile1"><input type="text" name="link_mobile" class="link_mobile1"
+                                        style="border-radius: 5px;"></div>
+            <div class="address1"><input type="text" name="link_address" class="link_address1"
+                                         style="border-radius: 5px;"></div>
+            <div class="button"></div>
+        </div>
+    </div>
+    <div class="camera">
+        <div class="out">
+            <div class="title"></div>
+            <div class="name"><input type="text" name="link_name" class="link_name" style="border-radius: 5px;"></div>
+            <div class="address"><input type="text" name="link_address" class="link_address"
+                                        style="border-radius: 5px;"></div>
+            <div class="mobile"><input type="text" name="link_mobile" class="link_mobile" style="border-radius: 5px;">
+            </div>
+            <div class="button"></div>
+        </div>
+    </div>
+
+    <div class="button1"></div>
+    <!--<div class="button2"></div>-->
+    <div class="bg"></div>
+</div>
+<div class="screen5">
+    <div class="text1">
+        <div class="content">
+            “奉法知礼”，带给你最美的诗和远方<br>
+            我是<span class="num">987</span>号，我赞同，我接力<br>
+            “文明过马路 礼让斑马线 ”
+        </div>
+        <div class="button"></div>
+    </div>
+    <div class="button1">我也参与</div>
+</div>
+<div class="share">
+    <img src="img/share.png">
+</div>
+<script src="js/screen.js"></script>
+<script src="js/js.js"></script>
+<!--<script src="js/music.js"></script>-->
+<script>
+    (function(){
+        var supportOrientation = (typeof window.orientation === 'number' &&
+            typeof window.onorientationchange === 'object');
+        var init = function(){
+            var htmlNode = document.body.parentNode,
+                orientation;
+            var updateOrientation = function(){
+                if(supportOrientation){
+                    orientation = window.orientation;
+                    switch(orientation){
+                        case 90:
+                        case -90:
+                            orientation = 'landscape';
+                            break;
+                        default:
+                            orientation = 'portrait';
+                            break;
+                    }
+                }else{
+                    orientation = (window.innerWidth > window.innerHeight) ? 'landscape' : 'portrait';
+                }
+//                htmlNode.setAttribute('class',orientation);\
+                if(orientation == 'landscape'){
+                    $(".landscape").show();
+                }else{
+                    $(".landscape").hide();
+                }
+            };
+            if(supportOrientation){
+                window.addEventListener('orientationchange',updateOrientation,false);
+            }else{
+//监听resize事件
+                window.addEventListener('resize',updateOrientation,false);
+            }
+            updateOrientation();
+        };
+        window.addEventListener('DOMContentLoaded',init,false);
+    })();
+</script>
+</body>
+</html>

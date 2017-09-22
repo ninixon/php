@@ -1,0 +1,2 @@
+The compress option has been deprecated. We recommend you use a dedicated css minifier, for instance see less-plugin-clean-css.
+.music{position:absolute;background-size:1.06666667rem 1.06666667rem;width:1.06666667rem;height:1.06666667rem;right:.13333333rem;top:1.33333333rem;z-index:100}.music img{width:100%}.music_active{animation:mymusic 2.5s linear infinite}@keyframes mymusic{100%{transform:rotate(1turn)}}
