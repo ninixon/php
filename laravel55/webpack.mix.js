@@ -14,6 +14,7 @@ let mix = require('laravel-mix');
 mix.js('resources/assets/js/app.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
     .sourceMaps();
+mix.less('resources/assets/less/index.less', 'public/css');
 mix.styles([
     'public/css/vendor/normalize.css',
     'public/css/vendor/videojs.css'
